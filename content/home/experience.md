@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Experience
+title: Career Profile
 subtitle:
 
 # Date format for experience
@@ -22,24 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Assistant Professor
+    company: Maynooth University
     company_url: ''
-    location: California
+    location: Maynooth, Ireland
     date_start: '2017-01-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
+  - title: Lecturer
+    company: University College Dublin
     company_url: ''
-    location: California
+    location: Dublin, Ireland
     date_start: '2016-01-01'
     date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
 ---
