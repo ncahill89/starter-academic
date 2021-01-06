@@ -36,7 +36,7 @@ experience:
     date_start: '2018-01-01'
     date_end: '2018-11-30'
     
-  - title: Post Doctoral Researher
+  - title: Post Doctoral Researcher
     company: UMASS Amherst
     company_url: ''
     location: Amherst, MA, USA
