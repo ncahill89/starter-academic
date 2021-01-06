@@ -7,7 +7,7 @@ title: "Estimating global mean sea-level rise and its uncertainties by 2100 and 
 authors:
 - Benjamin P. Horton
 - Nicole S. Khan
-- admin
+- Niamh Cahill
 - Janice S.H. Lee
 - Timothy A. Shaw
 - Andra J. Garner
