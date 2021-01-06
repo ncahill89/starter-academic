@@ -36,8 +36,8 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: npj climate and atmospheric science
 
-abstract: Sea-level rise projections and knowledge of their uncertainties are vital to make informed mitigation and adaptation decisions. 
-To elicit projections from members of the scientific community regarding future global mean sea-level (GMSL) rise, we repeated a survey originally conducted five years ago. 
+abstract: Sea level rise projections and knowledge of their uncertainties are vital to make informed mitigation and adaptation decisions. 
+To elicit projections from members of the scientific community regarding future global mean sea level (GMSL) rise, we repeated a survey originally conducted five years ago. 
  
 tags: []
 
