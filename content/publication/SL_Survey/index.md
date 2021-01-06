@@ -37,8 +37,7 @@ publication_types: ["2"]
 publication: npj climate and atmospheric science
 
 abstract: Sea-level rise projections and knowledge of their uncertainties are vital to make informed mitigation and adaptation decisions. 
-To elicit projections from members of the scientific community regarding future global mean sea-level (GMSL) rise, we repeated a survey originally conducted five years ago. Under Representative Concentration Pathway (RCP) 2.6, 106 experts projected a likely (central 66% probability) GMSL rise of 0.30-0.65 m by 2100, and 0.54–2.15 m by 2300, relative to 1986–2005. Under RCP 8.5, the same experts projected a likely GMSL rise of 0.63–1.32 m by 2100, and 1.67-5.61 m by 2300. Expert projections for 2100 are similar to those from the original survey, although the projection for 2300 has extended tails and is higher than the original survey. Experts give a likelihood of 42% (original survey) and 45% (current survey) that under the high-emissions scenario GMSL rise will exceed the upper bound (0.98 m) of the likely range estimated by the Fifth Assessment Report of the Intergovernmental Panel on Climate Change, which is considered to have an exceedance likelihood of 17%. Responses to open-ended questions suggest that the increases in upper-end estimates and uncertainties arose from recent influential studies about the impact of marine ice cliff instability on the meltwater contribution to GMSL rise from the Antarctic Ice Sheet.
-
+To elicit projections from members of the scientific community regarding future global mean sea-level (GMSL) rise, we repeated a survey originally conducted five years ago. 
  
 tags: []
 
