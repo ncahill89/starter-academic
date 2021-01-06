@@ -5,7 +5,7 @@ title: "What increase in modern contraceptive use is needed in FP2020 countries 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- admin
+- Niamh Cahill
 - Michelle Weinberger
 - Leontine Alkema
 
