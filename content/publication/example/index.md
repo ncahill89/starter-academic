@@ -30,10 +30,10 @@ publication_types: ["2"]
 publication: Gates Open Research
 
 abstract: Sustainable Development Goal 3.7 aims to ensure universal access to sexual and reproductive health services. One suggested benchmark is to have at least 75% of the demand for contraception satisfied with modern methods (DS) in all countries by 2030. The translation of DS-based targets into targets for the modern contraceptive prevalence rate (mCPR) is needed to make targets actionable.
-abstract: Sustainable Development Goal 3.7 aims to ensure universal access to sexual and reproductive health services. One suggested benchmark is to have at least 75% of the demand for contraception satisfied with modern methods (DS) in all countries by 2030. The translation of DS-based targets into targets for the modern contraceptive prevalence rate (mCPR) is needed to make targets actionable. 
-We apply the AT method to assess progress needed for attaining the 75% DS target for married or in-union women in the world’s poorest countries. For 50 out of 68 countries, we estimate that accelerations are needed, with required mCPR increases ranging from 4.3 to 50.8 percentage points.
-The AT method quantifies the acceleration needed – as compared to business as usual projections – for a country to meet a family planning target. The method can be used to determine the mCPR needed to reach demand-satisfied targets.
-
+  We propose the Accelerated Transition (AT) method for determining the mCPR needed to reach demand-satisfied targets by 2030. The starting point for this method is the projection of DS under “business as usual” using the one-country implementation of the Family Planning Estimation Model (FPEMcountry). For countries in which the DS target is projected to be later than 2030, the AT method assumes that meeting the DS target by 2030 requires an acceleration of the contraceptive use transition such that the DS target, and its associated mCPR, will be reached in 2030 as opposed to the later year. The DS-target-associated mCPR becomes the mCPR target for the year 2030.
+  We apply the AT method to assess progress needed for attaining the 75% DS target for married or in-union women in the world’s poorest countries. For 50 out of 68 countries, we estimate that accelerations are needed, with required mCPR increases ranging from 4.3 to 50.8 percentage points.
+ The AT method quantifies the acceleration needed – as compared to business as usual projections – for a country to meet a family planning target. The method can be used to determine the mCPR needed to reach demand-satisfied targets.
+ 
 tags: []
 
 # Display this page in the Featured widget?
