@@ -65,5 +65,8 @@ email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
+
+I am an applied statistician with interests in developing statistical models for the analysis of time dependent, compositional and/or spatial data. One aspect of my research focuses on the development of statistical models to assess and interpret population-level health trends, specifically family planning indicators, on a national and sub-national level. As well as this I work on the statistical analysis of indicators of climate change, specifically sea-level change. I use a Bayesian approach to statistical modeling, which is suitable for developing complex hierarchical models, accounts of uncertainties related to model parameters, incorporates prior knowledge, and shares information across data populations. My research covers a range of statistical disciplines including: stochastic processes; time series analysis; computation and simulation; and multivariate analysis.
+
 ---
 
