@@ -30,6 +30,9 @@ publication_types: ["2"]
 publication: Gates Open Research
 
 abstract: Sustainable Development Goal 3.7 aims to ensure universal access to sexual and reproductive health services. One suggested benchmark is to have at least 75% of the demand for contraception satisfied with modern methods (DS) in all countries by 2030. The translation of DS-based targets into targets for the modern contraceptive prevalence rate (mCPR) is needed to make targets actionable.
+abstract: Sustainable Development Goal 3.7 aims to ensure universal access to sexual and reproductive health services. One suggested benchmark is to have at least 75% of the demand for contraception satisfied with modern methods (DS) in all countries by 2030. The translation of DS-based targets into targets for the modern contraceptive prevalence rate (mCPR) is needed to make targets actionable. 
+We apply the AT method to assess progress needed for attaining the 75% DS target for married or in-union women in the world’s poorest countries. For 50 out of 68 countries, we estimate that accelerations are needed, with required mCPR increases ranging from 4.3 to 50.8 percentage points.
+The AT method quantifies the acceleration needed – as compared to business as usual projections – for a country to meet a family planning target. The method can be used to determine the mCPR needed to reach demand-satisfied targets.
 
 tags: []
 
