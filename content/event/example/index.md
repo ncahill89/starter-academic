@@ -32,13 +32,9 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/NCahill_Stat
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
 
- - name: slides
-   url: https://rpubs.com/ncahill_stat/721541
+  name: slides
+  url: https://rpubs.com/ncahill_stat/721541
 
 
 ---
