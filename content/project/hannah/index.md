@@ -1,6 +1,6 @@
 ---
 title: Hannah Comiskey
-summary: Research: Using service statistics for estimating mCPR
+summary: Using service statistics for estimating mCPR
 tags:
 - Family Planning
 date: "2016-04-27T00:00:00Z"
