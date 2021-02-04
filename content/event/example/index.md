@@ -37,8 +37,6 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
-# Custom links (uncomment lines below)
- links:
  - name: slides
    url_slides: static/BTF_slides.pdf
 
