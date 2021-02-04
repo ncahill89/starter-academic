@@ -38,7 +38,7 @@ url_slides: ""
 url_video: ""
 
  - name: slides
-   url_slides: `static/BTF_slides.pdf`
+   url_slides: https://github.com/ncahill89/starter-academic/blob/master/static/BTF_slides.pdf
 
 
 ---
