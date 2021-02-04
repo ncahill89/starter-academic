@@ -33,6 +33,7 @@ links:
   name: Follow
   url: https://twitter.com/NCahill_Stat
 
+- icon: slides
   name: slides
   url: https://rpubs.com/ncahill_stat/721541
 
