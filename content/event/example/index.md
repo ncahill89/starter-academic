@@ -27,16 +27,15 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
+- icon: slides
+  name: slides
+  url: https://rpubs.com/ncahill_stat/721541
+
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/NCahill_Stat
-
-- icon: slides
-  name: slides
-  url: https://rpubs.com/ncahill_stat/721541
-
 
 ---
 
