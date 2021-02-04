@@ -40,7 +40,7 @@ url_video: ""
 # Custom links (uncomment lines below)
  links:
  - name: slides
-   url: url_slides
+   url_slides: static/BTF_slides.pdf
 
 
 ---
