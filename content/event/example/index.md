@@ -38,7 +38,7 @@ url_slides: ""
 url_video: ""
 
  - name: slides
-   url_slides: https://github.com/ncahill89/starter-academic/blob/master/static/BTF_slides.pdf
+   url: https://rpubs.com/ncahill_stat/721541
 
 
 ---
