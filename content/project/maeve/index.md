@@ -1,6 +1,6 @@
 ---
 title: Maeve Upton
-summary: Studying sea-level change in an Atlantic context
+summary: Developing models for estimating sea-level change in an Atlantic context
 tags:
 - Sea Level
 date: "2016-04-27T00:00:00Z"
