@@ -26,8 +26,8 @@ image:
 links:
 - icon: slide
   name: view post
-  url: https://rpubs.com/ncahill_stat/721541
-
+  url: https://rpubs.com/ncahill_stat/727214
+  
 - icon: twitter
   icon_pack: fab
   name: Follow
