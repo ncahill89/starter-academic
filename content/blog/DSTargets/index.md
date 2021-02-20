@@ -1,16 +1,12 @@
 ---
-title: A BAYESIAN STATISTICAL MODEL FOR RECONSTRUCTING AND ANALYSING FORMER SEA LEVELS
+title: Satisfying the Demand for Family Planning - What Will it Take to Meet a 75% Benchmark by 2030?
 
-event: Meeting of the Irish Mathematical Society
 
-location: Online
-
-summary: A Bayesian transfer function modeling approach that is used to produce reconstructions of past sea level through the calibration of a biological proxy (e.g., foraminifera) into tidal elevation.
-abstract: "In order to understand the present we must first gain insight into the past. Therefore, to understand and have historical context for current rates of sea-level rise we need to be informed about past changes that have occurred. Sea-level reconstructions can provide this information by giving us insight into the magnitude and rates of past sea levels. We have produced sea-level reconstructions along the U.S Atlantic East coast using biological and geochemical sea-level indicators preserved in dated cores of salt-marsh sediment. I have developed statistical models that can help us to bridge the gap between the information held in these raw proxy data and a high-resolution sea-level reconstruction. Using a Bayesian framework for these models aids in the understanding and quantification of the uncertainty that is inherent in these data and the resulting records of former sea levels. I present A Bayesian transfer function modeling approach that is used to produce reconstructions of past sea level through the calibration of a biological proxy (e.g., foraminifera) into tidal elevation. The first step in the transfer function approach is building a model that captures the relationship between a biological proxy and tidal elevation in a modern environment. The second step uses this relationship to produce estimates of paleo-tidal elevation with uncertainty for each layer in a sediment core. Additional proxies (e.g., δ13 C) can be used to further constrain these estimates and potentially reduce uncertainty. Combining output from the Bayesian transfer function with a core chronology provides us with a reconstruction of relative sea level through time. With the aim of estimating rates of sea-level change, reconstructions are analyzed using an errors-in-variables integrated Gaussian process model. Ultimately, through the combination of these statistical models we can capture the continuous and dynamic evolution of rates of RSL change with a full consideration and propagation of available uncertainties. Results show that 20th century sea-level rise along the U.S. Atlantic coast is the highest it’s been in at least the last 15 centuries."
+summary: 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-01-14T13:00:00Z"
+date: "2021-02-18T13:00:00Z"
 #date_end: "2030-06-01T15:00:00Z"
 #all_day: false
 
@@ -39,14 +35,3 @@ links:
 
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
