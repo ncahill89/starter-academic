@@ -11,13 +11,13 @@
 [[main]]
   name = "Talks"
   url = "#talks"
-  weight = 20
+  weight = 30
 
 
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "People"
