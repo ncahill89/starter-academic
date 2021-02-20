@@ -23,10 +23,10 @@ image:
   focal_point: Right
 
 links:
-- icon: blog
+- icon: slides
   name: blog
-  url: https://rpubs.com/ncahill_stat/721541
-
+  url: https://rpubs.com/ncahill_stat/727214
+  
 - icon: twitter
   icon_pack: fab
   name: Follow
