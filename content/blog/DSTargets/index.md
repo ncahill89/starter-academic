@@ -13,11 +13,6 @@ featured: false
 #  caption: ''
 #  focal_point: Right
 
-links:
-- icon: slide
-  name: view post
-  url: https://rpubs.com/ncahill_stat/727214
-  
 ---
 
 As individuals, how do we get from where we are to where we want to be? Many people chose to set targets for themselves that will help them work towards achieving their goals. Let's assume your goal is to buy a House. You don't just expect to wake up one day and for the bank to hand you a mortgage. You need to save for a deposit (your target) and in this context you might also give yourself a medium-term savings target to keep you on track. Then all you need is some indicator of progress, for example, when trying to meet your deposit target you can recognize the importance of monitoring monthly savings. 
@@ -45,4 +40,13 @@ We’ll consider Afghanistan as an example first of all. Our statistical models 
 We know now that increasing demand satisfied in Afghanistan needs to happen at a faster rate if the country hopes to meet the 75%  benchmark by 2030. What about other countries? Of the 68 countries we considered, overall 50 out of 68 are expected to reach 75% demand satisfied in some year after 2030 and therefore will require a higher level of modern contraceptive use in 2030 relative to what's  currently expected. At the lower end of this spectrum, countries will need to reach 75% demand satisfied about a year earlier than expected. At the higher end of the spectrum countries will need to increase levels of demand satisfied to 75% 7 times faster than what's currently expected.  Whether these accelerations are feasible or not remains to be seen, but there is no doubt that some countries face more of a challenge than others. One thing is clear, knowing what is required in order for countries to meet proposed benchmarks is vital for the successful implementation of Family Planning programs that will ultimately help achieve the SDGs.  
 
 ![Relative acceleration required for the 75% demand satisfied benchmark to be met in 2030 in 68 of the world's poorest countries](map.png)
+
+```
+---
+title: My post's title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+```
 
