@@ -25,6 +25,13 @@
   weight = 30
   
 [[main]]
+  name = "Blog"
+  url = "#blog"
+  weight = 10
+
+
+  
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 60
