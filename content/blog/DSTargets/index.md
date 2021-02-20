@@ -41,10 +41,9 @@ We know now that increasing demand satisfied in Afghanistan needs to happen at a
 
 ![Relative acceleration required for the 75% demand satisfied benchmark to be met in 2030 in 68 of the world's poorest countries](map.png)
 
-```
----
-title: Satisfying the Demand for Family Planning - What Will it Take to Meet a 75% Benchmark by 2030?
-date: 2021-02-18
----
-```
+### About the author
+
+This post was written by Niamh Cahill based on the publication:
+
+Cahill N, Weinberger M and Alkema L. What increase in modern contraceptive use is needed in FP2020 countries to reach 75% demand satisfied by 2030? An assessment using the Accelerated Transition Method and Family Planning Estimation Model [version 1; peer review: 2 approved]. Gates Open Res 2020, 4:113 (https://doi.org/10.12688/gatesopenres.13125.1)
 
