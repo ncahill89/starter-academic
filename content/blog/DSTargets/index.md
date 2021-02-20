@@ -28,10 +28,5 @@ links:
   name: view post
   url: https://rpubs.com/ncahill_stat/727214
   
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/NCahill_Stat
-
 ---
 
