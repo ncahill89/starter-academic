@@ -24,8 +24,8 @@ image:
   focal_point: Right
 
 links:
-- icon: slides
-  name: slides
+- icon: slide
+  name: view post
   url: https://rpubs.com/ncahill_stat/721541
 
 - icon: twitter
