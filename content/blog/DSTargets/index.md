@@ -9,9 +9,9 @@ date: "2021-02-18T13:00:00Z"
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: ''
-  focal_point: Right
+#image:
+#  caption: ''
+#  focal_point: Right
 
 links:
 - icon: slide
