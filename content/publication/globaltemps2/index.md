@@ -9,7 +9,7 @@ authors:
 - Grant Foster
 - Niamh Cahill
 
-date: "2020-07-01T00:00:00Z"
+date: "2017-25-04T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -24,7 +24,7 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: Environmental Research Letters
 
-abstract: 
+abstract: Global surface temperatures continue to rise. In most surface temperature data sets, the years 2014, 2015 and again 2016 set new global heat records since the start of regular measurements. Never before have three record years occurred in a row. We show that this recent streak of record heat does not in itself provide statistical evidence for an acceleration of global warming, nor was it preceded by a 'slowdown period' with a significantly reduced rate of warming. Rather, the data are fully consistent with a steady global warming trend since the 1970s, superimposed with random, stationary, short-term variability. All recent variations in short-term trends are well within what was to be expected, based on the observed warming trend and the observed variability from the 1970s up to the year 2000. We discuss some pitfalls of statistical analysis of global temperatures which have led to incorrect claims of an unexpected or significant warming slowdown.
 
 tags: []
 
