@@ -1,6 +1,6 @@
 ---
 title: Hannah Comiskey
-summary: Developing models for using family planning service statistics in the estimation of mCPR
+summary: Developing models for using family planning service statistics in the estimation of modern contraceptive prevalence rates (mCPR)
 tags:
 - Family Planning
 date: "2016-04-27T00:00:00Z"
