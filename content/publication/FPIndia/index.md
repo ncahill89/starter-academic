@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(17)30033-5/fulltext'
+url_pdf: 'https://doi.org/10.1016/s2214-109x(17)30033-5'
 url_code: ''
 url_dataset: ''
 url_poster: ''
