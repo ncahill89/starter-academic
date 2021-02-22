@@ -43,7 +43,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://gatesopenresearch.org/articles/4-113'
+url_pdf: 'https://doi.org/10.1016/S2214-109X(17)30033-5'
 url_code: ''
 url_dataset: ''
 url_poster: ''
