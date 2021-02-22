@@ -31,7 +31,7 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: The Lancet Global Health
 
-abstract: 
+abstract: Improving access to reproductive health services and commodities is central to development. Efforts to assess progress on this front have been largely focused on national estimates, but such analyses can mask local disparities. We assessed progress in reproductive health services subnationally in India.
  
 tags: []
 
