@@ -24,4 +24,4 @@ url_video: ""
 
 ---
 
-Hannah's Biography Here
+Hannah is a student of the Science Foundation Ireland Centre for Research Training in Foundations of Data Science programme. She has a First Class Honours Bachelor of Science degree in Statistics and Biology, awarded by Maynooth University.  Hannah’s PhD is concentrating on quantifying the uncertainty associated with estimates of modern contraceptive use from service statistics using Bayesian hierarchical modelling techniques. She is working on an R package ‘ss2emu’ that takes service statistics data and creates estimates of modern contraceptive use with uncertainty in a given country. This package will be based on existing and new methodologies. This package incorporated into an R shiny application will provide a valuable tool for the processing of Family Planning Services data into formats that are compatible with The Family Planning Estimation Tool (FPET; www.fpet.track20.org). The goal of this work is to harness the full potential of service statistics and incorporate this into the FPET to better inform estimates of contraceptive prevalence rates.
