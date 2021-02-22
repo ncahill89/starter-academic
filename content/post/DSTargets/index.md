@@ -1,6 +1,6 @@
 ---
 title: Satisfying the Demand for Family Planning - What Will it Take to Meet a 75% Benchmark by 2030?
-summary: 
+summary: As individuals, how do we get from where we are to where we want to be? Many people chose to set targets for themselves that will help them work towards achieving their goals......
 authors:
   - admin
 date: "2021-02-18T13:00:00Z"
