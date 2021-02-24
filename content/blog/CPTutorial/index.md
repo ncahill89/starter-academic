@@ -49,9 +49,9 @@ __Process model__
 
 For our specification, we'll assume that the expected value of our observed outcome, y, has a changing linear relationship with time, x, such that
 
-mu_y = alpha + beta_1(x - cp)   for x < cp
+&mu;<sub>y</sub> = &alpha; + &beta;<sub>1</sub>(x - cp)   for x &lt; cp
 
-mu_y = alpha + beta_2(x - cp)   for x >/= cp
+&mu;<sub>y</sub> = &alpha; + &beta;<sub>2</sub>(x - cp)   for x &ge; cp
 
 In other words, the linear relationship between x and mu_y changes at some time point (cp). 
 
@@ -61,7 +61,7 @@ __Data model__
 
 We'll link the observations to the process through a normal data model.
 
-y ~ N(mu_y, sigma^2)
+y ~ N(&mu;<sub>y</sub>, &sigma;<sup>2</sup>)
 
 __Priors__
 
