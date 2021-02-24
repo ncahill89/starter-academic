@@ -51,7 +51,7 @@ For our specification, we'll assume that the expected value of our observed outc
 
 mu_y = alpha + beta_1(x - cp)   for x < cp
 
-mu_y = alpha + beta_2(x - cp)    for x >/= cp}$
+mu_y = alpha + beta_2(x - cp)   for x >/= cp
 
 In other words, the linear relationship between x and mu_y changes at some time point (cp). 
 
