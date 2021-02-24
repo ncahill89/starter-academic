@@ -45,25 +45,25 @@ When it comes to the model specification recipe, the ingredients are
 
 3. Priors, which contain assumptions about the parameters we are estimating. Priors can be used to impose constraints on model parameters based on apriori information.
 
-__process model__
+__Process model__
 
-For our specification, we'll assume that the expected value of our observed outcome, $y$, has a changing linear relationship with time, $x$, such that
+For our specification, we'll assume that the expected value of our observed outcome, y, has a changing linear relationship with time, x, such that
 
-\mu_y = &alpha + \beta_1(x - cp)   for x < cp
+mu_y = alpha + beta_1(x - cp)   for x < cp
 
-$\mu_y = \alpha + \beta_2(\text{x - cp})  \hspace{2em} \text{for x $\geq$ cp}$
+mu_y = alpha + beta_2(x - cp)    for x >/= cp}$
 
-In other words, the linear relationship between $x$ and $mu_y$ changes at some time point (cp). 
+In other words, the linear relationship between x and mu_y changes at some time point (cp). 
 
   - Note, by subtracting the change point (cp) from x in the regression equation we can interpret the intercept ($\alpha$) as being the expected value of y in the year where the change point occurs. 
 
-__data model__
+__Data model__
 
 We'll link the observations to the process through a normal data model.
 
-$y \sim N(\mu_y, \sigma^2)$
+y ~ N(mu_y, sigma^2)
 
-__priors__
+__Priors__
 
 We need priors for all unknown parameters.  The prior on the change point should constrain the change point to occur somewhere within the range of the observation years. 
 
@@ -100,7 +100,7 @@ cp_model = "model
 
 __Notes on the model setup:__
 
-  - This setup makes use of the step function in JAGS to decide if $\beta_1$ or $\beta_2$ is required, where step(x) = 1 if $x\geq 0$ and 0 otherwise. 
+  - This setup makes use of the step function in JAGS to decide if beta_1 or \beta_2 is required, where step(x) = 1 if x >/= 0 and 0 otherwise. 
   
   - I've chosen to set up the process model such that we can get estimates of the underlying process for all years within the range of observation years. 
 
