@@ -49,7 +49,7 @@ __process model__
 
 For our specification, we'll assume that the expected value of our observed outcome, $y$, has a changing linear relationship with time, $x$, such that
 
-$\mu_y = \alpha + \beta_1(\text{x - cp})  \hspace{2em} \text{for x $<$ $cp$}$
+\mu_y = &alpha + \beta_1(x - cp)   for x < cp
 
 $\mu_y = \alpha + \beta_2(\text{x - cp})  \hspace{2em} \text{for x $\geq$ cp}$
 
