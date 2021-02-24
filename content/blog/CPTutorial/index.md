@@ -100,7 +100,7 @@ cp_model = "model
 
 __Notes on the model setup:__
 
-  - This setup makes use of the step function in JAGS to decide if beta_1 or \beta_2 is required, where step(x) = 1 if x >/= 0 and 0 otherwise. 
+  - This setup makes use of the step function in JAGS to decide if beta_1 or beta_2 is required, where step(x) = 1 if x >/= 0 and 0 otherwise. 
   
   - I've chosen to set up the process model such that we can get estimates of the underlying process for all years within the range of observation years. 
 
