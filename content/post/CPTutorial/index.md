@@ -16,7 +16,7 @@ featured: false
 ---
 
 ## Introduction
-One of the first models I worked on during my PhD was a change-point linear regression model for time series data. This model is relatively simple to implement and it can be really useful for answering questions related to changes in trends over time. Over the years I've used versions of this model in a number of different applications, such as looking for timings of changes in regional sea level records, investigating claims about the global warming hiatus and most recently, for exploring the evolution of the Gulf Stream System over time, also known as the Atlantic Meridional Overturning Circulation (AMOC). 
+One of the first models I worked on during my PhD was a change-point linear regression model for time series data. This model is relatively simple to implement and it can be really useful for answering questions related to changes in trends over time. Over the years I've used versions of this model in a number of different applications, such as looking for timings of changes in regional sea level records, investigating claims about the global warming hiatus and most recently, for exploring the evolution of the Gulf Stream System, also known as the Atlantic Meridional Overturning Circulation (AMOC). 
 
 Here I am going to give you a starting point for developing a Bayesian change-point regression model for unevenly spaced time series data, assuming a single change point.  
 
