@@ -72,18 +72,15 @@ Here is a JAGS specification for this model:
 ```{r}
 cp_model <- 
 'model{
-  ## Process model (cp regression) loop
   for(t in 1:n_est){
   mu_y[t] <- alpha + beta[J[t]]*(est_year[t]-cp)
   J[t] <- step(est_year[t]-cp) + 1
  } # end t loop
      
-  ## Data model loop 
   for(j in 1:n_obs){
   y[j]~dnorm(mu_y[year_index[j]],sigma^-2)
  } # end j loop
 
- ## Priors
  alpha[1] ~ dnorm(0.0,0.01)
  beta[1]~dnorm(0.0,0.01)
  beta[2]~dnorm(0.0,0.01)
