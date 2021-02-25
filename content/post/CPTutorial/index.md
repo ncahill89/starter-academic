@@ -72,18 +72,16 @@ Here is a JAGS specification for this model:
 ```{r}
 cp_model = "model
 {
-  ## Process model (CP regression) loop
-  for(t in 1:n_est)
-  {
+  ## Process model (cp regression) loop
+  for(t in 1:n_est){
   mu_y[t] <- alpha + beta[J[t]]*(est_year[t]-cp)
   J[t] <- step(est_year[t]-cp) + 1
-  } # end t loop
+ } # end t loop
      
   ## Data model loop 
-  for(j in 1:n_obs)
-  {
+  for(j in 1:n_obs){
   y[j]~dnorm(mu_y[year_index[j]],sigma^-2)
-  } # end j loop
+ } # end j loop
 
  ## Priors
  alpha[1] ~ dnorm(0.0,0.01)
@@ -98,7 +96,7 @@ cp_model = "model
 "
 ```
 
-__Notes on the model setup:__
+__Notes on the model setup__
 
   - This setup makes use of the step function in JAGS to decide if &beta;<sub>1</sub> or &beta;<sub>2</sub> is required, where step(x) = 1 if x &ge; 0 and 0 otherwise. 
   
@@ -132,9 +130,9 @@ fake <- 0
 For the simulation we supply the parameters as data. Here's where you can play around with the simulation by changing the parameter values to get different datasets with varying characteristics. I'm going to simulate data with unevenly spaced time points (as that's what I most often deal with in practice). 
 
 ```{r}
-#parameters for simulation
 n_years = 50
 year = sort(sample(1:100, size = 50))
+
 alpha_true <- 0.1
 beta_true <- rep(NA,2)
 beta_true[1] <- 0.02
@@ -146,7 +144,6 @@ sigma_true <- 0.5
 To run the simulation model pass the parameter values to JAGS in a data list. 
 
 ```{r, message=FALSE}
-#parameters are treated as data for the simulation step
 data<-list(n_years = n_years,
            x = year,
            alpha = alpha_true,
@@ -154,7 +151,7 @@ data<-list(n_years = n_years,
            cp = cp_true,
            sigma_y = sigma_true)
 
-#run jags
+
 out <- run.jags(sim_cp, 
                 data = data,
                 monitor=c("y"),
@@ -181,20 +178,20 @@ ggplot(dat, aes(x = year, y = y)) +
 
 Now we're going to pretend that our simulated data is real life data (i.e., we don't know the parameter values). So we want to run the model and estimate the parameters. We can then compare the true values of the parameters to the posterior distribution for the parameters to see how the model performs. 
 
-Once you've specified your JAGS model, the next step is to set up the data to give to the model. Everything that is not a parameter to be estimated needs to be supplied as data in a list. 
+Once you've specified your JAGS model, the next step is to set up the data to give to the model. 
 
 ```{r}
-### get data and estimation years
 obs_year <- dat %>% pull(year)
 y <- dat %>% pull(y)
 est_year <- seq(min(obs_year),max(obs_year),by=1)
 n_est <- length(est_year)
 n_obs <- length(obs_year)
-  
-### get and indexes for observation year in the estimation year
 year_index <- match(obs_year,est_year)
+```
+Everything that is not a parameter to be estimated needs to be supplied as data in a list. 
 
-###The required data
+```{r}
+
 jags_data <- list(y = y,
                   year_index = year_index,
                   est_year = est_year,
@@ -205,17 +202,20 @@ jags_data <- list(y = y,
 ```
 
 
-Before running the model, decide which parameters you want to be stored in the output. Then run the model by supplying the data and parameters and connecting to the model specification code. 
+Before running the model, decide which parameters you want to be stored in the output. 
 
 ```{r}
-
-##parameters to save
 jags_pars <- c("mu_y",
                "beta",
                "alpha",
                "sigma",
                "cp")  
-##run the model
+```
+
+Then run the model by supplying the data and parameters and connecting to the model specification code (`cp_model`). 
+
+```{r}
+
 mod <- jags(data = jags_data, 
             parameters.to.save=jags_pars,
             model.file = textConnection(cp_model))
@@ -234,10 +234,11 @@ We'll format the posterior samples $\beta$ first of all.
 
 ```{r, message=FALSE}
 beta_ind <- factor(1:2) 
-beta_dat <- m %>% spread_draws(beta[beta_ind])
+beta_dat <- m %>% 
+    spread_draws(beta[beta_ind])
 ```
 
-Now let's compare the posterior for $\beta_1$ and $\beta_2$ with the true values. 
+Now let's compare the posterior for &beta;<sub>1<\sub> and &beta;<sub>2<\sub> with the true values. 
 
 ```{r}
 ggplot(beta_dat, aes(x = beta)) +
@@ -257,7 +258,8 @@ beta_dat %>%
 Let's look at the change-point parameter.
 
 ```{r}
-cp_dat <- m %>% spread_draws(cp) 
+cp_dat <- m %>% 
+  spread_draws(cp) 
 
 ggplot(cp_dat, aes(x = cp)) +
   stat_halfeye() +
@@ -278,5 +280,9 @@ ggplot(data = muy_dat) +
   geom_ribbon(aes(x = year, ymin = .lower, ymax = .upper), alpha = 0.5) +
   geom_point(data = dat, aes(x = year, y = y)) +
   ylab("y")
-
 ```
+
+## Summary
+
+This is a starting point for developing Bayesian change-point regression models for time series data and using simulated data can be helpful for checking if the model is doing what you expect it to do. Examples of model specifications for >1 change points can be found [here](https://github.com/ncahill89/CPModel/tree/master/model).
+
