@@ -271,7 +271,7 @@ ggplot(cp_dat, aes(x = cp)) +
 
 ![](p_cp.png)
 
-The results look good (yay!). Make sure to check the other parameters (&alpha; and &sigma;<sub>y</sub> too (I won't do that here as it's just repeating code).
+The results look good (yay!). Make sure to check the other parameters &alpha; and &sigma;<sub>y</sub> too (I won't do that here as it's just repeating code).
   
 Finally, let's look at the model estimates compared to the observations. 
 
@@ -293,5 +293,9 @@ ggplot(data = muy_dat) +
 
 ## Summary
 
-This is a starting point for developing Bayesian change-point regression models for time series data and using simulated data can be helpful for checking if the model is doing what you expect it to do. Examples of model specifications for >1 change points can be found [here](https://github.com/ncahill89/CPModel/tree/master/model).
+This is a starting point for developing Bayesian change-point regression models for time series data and using simulated data can be helpful for checking if the model is doing what you expect it to do. 
+
+## More on Change Point Analysis
+Examples of model specifications for >1 change points can be found [here](https://github.com/ncahill89/CPModel/tree/master/model).
+
 
