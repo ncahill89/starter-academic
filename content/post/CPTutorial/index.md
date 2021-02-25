@@ -80,13 +80,13 @@ model{
   
   # data model
   for(j in 1:n_obs){
-  y[j]~dnorm(mu_y[year_index[j]],sigma^-2)
+  y[j] ~ dnorm(mu_y[year_index[j]],sigma^-2)
  } # end j loop
 
 # priors
 alpha[1] ~ dnorm(0.0,0.01)
-beta[1]~dnorm(0.0,0.01)
-beta[2]~dnorm(0.0,0.01)
+beta[1] ~ dnorm(0.0,0.01)
+beta[2] ~ dnorm(0.0,0.01)
 sigma ~ dt(0,4^-2,1)T(0,)
 cp ~ dunif(year_min,year_max)
 }
@@ -113,9 +113,9 @@ Here is the specification for the simulation. The difference compared to the mod
 sim_cp <- '
 data{
   for(t in 1:n_years){
-  mu[t]<- alpha + beta[J[t]]*(x[t]-cp)
+  mu[t] <- alpha + beta[J[t]]*(x[t]-cp)
   J[t] <- step(x[t]-cp) + 1
-  y[t]~dnorm(mu[t],sigma_y^-2)
+  y[t] ~ dnorm(mu[t],sigma_y^-2)
    }
 }
 model{
