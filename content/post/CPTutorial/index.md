@@ -53,7 +53,7 @@ For our specification, we'll assume that the expected value of our observed outc
 
 &mu;<sub>y</sub> = &alpha; + &beta;<sub>2</sub>(x - cp)   for x &ge; cp
 
-In other words, the linear relationship between x and mu_y changes at some time point (cp). 
+In other words, the linear relationship between x and mu_y changes at some time point, cp. 
 
   - Note, by subtracting the change point (cp) from x in the regression equation we can interpret the intercept (&alpha;) as being the expected value of y in the year where the change point occurs. 
 
