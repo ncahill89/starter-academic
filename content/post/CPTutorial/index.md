@@ -70,8 +70,8 @@ We need priors for all unknown parameters.  The prior on the change point should
 Here is a JAGS specification for this model:
 
 ```{r}
-cp_model = "model
-{
+cp_model <- 
+'model{
   ## Process model (cp regression) loop
   for(t in 1:n_est){
   mu_y[t] <- alpha + beta[J[t]]*(est_year[t]-cp)
@@ -89,8 +89,9 @@ cp_model = "model
  beta[2]~dnorm(0.0,0.01)
  sigma ~ dt(0,4^-2,1)T(0,)
  cp ~ dunif(year_min,year_max)
-}# end 
-"
+}
+' 
+
 ```
 
 __Notes on the model setup__
@@ -111,8 +112,7 @@ Here is the specification for the simulation. The difference compared to the mod
 ```{r}
 sim_cp <- '
 data{
-  for(t in 1:n_years)
-  {
+  for(t in 1:n_years){
   mu[t]<- alpha + beta[J[t]]*(x[t]-cp)
   J[t] <- step(x[t]-cp) + 1
   y[t]~dnorm(mu[t],sigma_y^-2)
