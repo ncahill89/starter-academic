@@ -39,11 +39,11 @@ library(tidybayes)
 
 When it comes to the model specification recipe, the ingredients are
 
-1. The process model, which relates to the expectation of what's underlying the observed data. The process model will be governed by a set of parameters that need to be estimated. 
+1. The __process model__, which relates to the expectation of what's underlying the observed data. The process model will be governed by a set of parameters that need to be estimated. 
 
-2. The data model, which contains assumptions about how the data are generated and incorporates data uncertainty. The data model links the observed data to the underlying process. 
+2. The __data model__, which contains assumptions about how the data are generated and incorporates data uncertainty. The data model links the observed data to the underlying process. 
 
-3. Priors, which contain assumptions about the parameters we are estimating. Priors can be used to impose constraints on model parameters based on apriori information.
+3. __The priors__, which contain assumptions about the parameters we are estimating. Priors can be used to impose constraints on model parameters based on apriori information.
 
 __Process model__
 
