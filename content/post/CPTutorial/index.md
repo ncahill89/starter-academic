@@ -1,6 +1,6 @@
 ---
-title: Bayesian Change-Point Linear Regression.
-summary: 
+title: Bayesian Change-Point Linear Regression
+summary: One of the first models I worked on during my PhD was a change-point linear regression model for time series data. This model is relatively simple to implement and it can be really useful for answering questions related to changes in trends over time.
 authors:
   - admin
 date: "2021-02-18T13:00:00Z"
