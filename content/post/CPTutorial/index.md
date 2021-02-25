@@ -85,12 +85,9 @@ cp_model = "model
 
  ## Priors
  alpha[1] ~ dnorm(0.0,0.01)
-
  beta[1]~dnorm(0.0,0.01)
  beta[2]~dnorm(0.0,0.01)
-
  sigma ~ dt(0,4^-2,1)T(0,)
-
  cp ~ dunif(year_min,year_max)
 }# end 
 "
