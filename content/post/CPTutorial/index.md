@@ -237,7 +237,7 @@ beta_dat <- m %>%
     spread_draws(beta[beta_ind])
 ```
 
-Now let's compare the posterior distributions for &beta;<sub>1<\sub> and &beta;<sub>2<\sub> with the true values. 
+Now let's compare the posterior distributions for &beta;<sub>1</sub> and &beta;<sub>2</sub> with the true values. 
 
 ```{r}
 ggplot(beta_dat, aes(x = beta)) +
@@ -271,7 +271,7 @@ ggplot(cp_dat, aes(x = cp)) +
 
 ![](p_cp.png)
 
-The results look good (yay!). Make sure to check the other parameters (&alpha; and &sigma;<sub>y<\sub> too (I won't do that here as it's just repeating code).
+The results look good (yay!). Make sure to check the other parameters (&alpha; and &sigma;<sub>y</sub> too (I won't do that here as it's just repeating code).
   
 Finally, let's look at the model estimates compared to the observations. 
 
