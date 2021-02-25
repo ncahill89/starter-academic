@@ -70,22 +70,25 @@ We need priors for all unknown parameters.  The prior on the change point should
 Here is a JAGS specification for this model:
 
 ```{r}
-cp_model <- 
-'model{
+cp_model <- '
+model{
+ # process model 
   for(t in 1:n_est){
   mu_y[t] <- alpha + beta[J[t]]*(est_year[t]-cp)
   J[t] <- step(est_year[t]-cp) + 1
  } # end t loop
-     
+  
+  # data model
   for(j in 1:n_obs){
   y[j]~dnorm(mu_y[year_index[j]],sigma^-2)
  } # end j loop
 
- alpha[1] ~ dnorm(0.0,0.01)
- beta[1]~dnorm(0.0,0.01)
- beta[2]~dnorm(0.0,0.01)
- sigma ~ dt(0,4^-2,1)T(0,)
- cp ~ dunif(year_min,year_max)
+# priors
+alpha[1] ~ dnorm(0.0,0.01)
+beta[1]~dnorm(0.0,0.01)
+beta[2]~dnorm(0.0,0.01)
+sigma ~ dt(0,4^-2,1)T(0,)
+cp ~ dunif(year_min,year_max)
 }
 ' 
 
