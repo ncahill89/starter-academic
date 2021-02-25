@@ -59,7 +59,7 @@ In other words, the linear relationship between x and mu_y changes at some time 
 
 __Data model__
 
-We'll link the observations to the process through a normal data model.
+We'll link the observations to the process through a normal data model, such that
 
 y ~ N(&mu;<sub>y</sub>, &sigma;<sup>2</sup>)
 
