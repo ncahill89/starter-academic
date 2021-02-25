@@ -104,7 +104,7 @@ __Notes on the model setup__
  
 ## Simulate data
 
-One of the best ways to get a feel for a model and it's limitations is to use simulations. We can also use JAGS to simulate data from the single change-point regression model. Note, you don't actually need to simulate the data using JAGS, but it is a really useful simulation tool when you want to simulate data from complex models, because your simulation code can (almost) mirror the code from your model specification code (I originally discovered how to do this from [here](https://oliviergimenez.github.io/blog/sim_with_jags/). 
+One of the best ways to get a feel for a model, and it's limitations, is to use simulations. We can also use JAGS as a simulation tool. This can be particularly useful when you want to simulate data from more complex models, because your simulation code can (almost) mirror your model specification code (I originally discovered how to do this from [here](https://oliviergimenez.github.io/blog/sim_with_jags/)). 
 
 Here is the specification for the simulation. The difference compared to the model specification is that you use a `data` block instead of a `model` block. But, notice how similar the code is (handy right?).
 
