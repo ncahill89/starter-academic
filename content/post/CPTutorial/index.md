@@ -84,9 +84,9 @@ model{
  } # end j loop
 
 # priors
-alpha[1] ~ dnorm(0.0,0.01)
-beta[1] ~ dnorm(0.0,0.01)
-beta[2] ~ dnorm(0.0,0.01)
+alpha[1] ~ dnorm(0.0,10^-2)
+beta[1] ~ dnorm(0.0,10^-2)
+beta[2] ~ dnorm(0.0,10^-2)
 sigma ~ dt(0,4^-2,1)T(0,)
 cp ~ dunif(year_min,year_max)
 }
@@ -102,6 +102,7 @@ __Notes on the model setup__
 
   - The data model only links the observations to the process model in years where data are available. In this case, the `year_index` will tell the data model which years are observation years.   
   
+  - JAGS uses precision (1/variance) in the parameterisation of the normal and t distributions.
  
 ## Simulate data
 
@@ -170,6 +171,7 @@ ggplot(dat, aes(x = year, y = y)) +
   geom_point()
 ```
 
+![](p_dat.png)
 
 ## Run the change-point regression model
 
@@ -208,12 +210,15 @@ jags_pars <- c("mu_y",
                "cp")  
 ```
 
-Then run the model by supplying the data and parameters and connecting to the model specification code (`cp_model`). 
+Then run the model by supplying the data and parameters and connecting to the model specification code (`cp_model`). You can also specify the number of MCMC sampling iterations, the burnin (i.e., MCMC samples to remove at the start) and the thinning (this results in only every kth sample being saved to remove autocorrelation). 
 
 ```{r}
 mod <- jags(data = jags_data, 
             parameters.to.save=jags_pars,
-            model.file = textConnection(cp_model))
+            model.file = textConnection(cp_model),
+            n.iter = 5000,
+            n.burnin = 1000,
+            n.thin = 4)
 
 ##create an object containing the posterior samples
 m <- mod$BUGSoutput$sims.matrix
@@ -241,6 +246,7 @@ ggplot(beta_dat, aes(x = beta)) +
   facet_wrap(~beta_ind, scales = "free") +
   labs(colour = "")
 ```
+![](p_betas.png)
 
 To get summary statistics you can use:
 
@@ -248,6 +254,8 @@ To get summary statistics you can use:
 beta_dat %>% 
   median_qi(beta) 
 ```
+
+![](sum_betas.png)
 
 Let's look at the change-point parameter.
 
@@ -260,6 +268,8 @@ ggplot(cp_dat, aes(x = cp)) +
   geom_vline(data = tibble(cp_true), aes(xintercept = cp_true, colour = "True value"))+
   labs(colour = "")
 ```
+
+![](p_cp.png)
 
 The results look good (yay!). Make sure to check the other parameters (&alpha; and &sigma;<sub>y<\sub> too (I won't do that here as it's just repeating code).
   
@@ -277,6 +287,8 @@ ggplot(data = muy_dat) +
   geom_point(data = dat, aes(x = year, y = y)) +
   ylab("y")
 ```
+
+![](p_mu.png)
 
 
 ## Summary
