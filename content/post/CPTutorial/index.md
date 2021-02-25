@@ -124,7 +124,7 @@ fake <- 0
 '
 ```
 
-For the simulation we supply the parameters as data. Here's where you can play around with the simulation by changing the parameter values to get different datasets with varying characteristics. I'm going to simulate data with unevenly spaced time points (as that's what I most often deal with in practice). 
+For the simulation we supply the parameters as data. You should play around with the parameter values to produce different types of datasets to test your model. I'm going to simulate data with unevenly spaced time points (as that's what I most often deal with in practice). 
 
 ```{r}
 n_years = 50
@@ -173,9 +173,9 @@ ggplot(dat, aes(x = year, y = y)) +
 
 ## Run the change-point regression model
 
-Now we're going to pretend that our simulated data is real life data (i.e., we don't know the parameter values). So we want to run the model and estimate the parameters. We can then compare the true values of the parameters to the posterior distribution for the parameters to see how the model performs. 
+Now we're going to pretend that our simulated data is real life data (i.e., we'll assume that we don't know the parameter values). So we want to run the model and estimate the parameters. We can then compare the true values of the parameters to the posterior distribution for the parameters to see how the model performs and if it's doing what we expect it to do. 
 
-Once you've specified your JAGS model, the next step is to set up the data to give to the model. 
+Once you've specified your JAGS model (e.g., `cp_model`), the next step is to set up the data to give to the model. 
 
 ```{r}
 obs_year <- dat %>% pull(year)
@@ -188,7 +188,6 @@ year_index <- match(obs_year,est_year)
 Everything that is not a parameter to be estimated needs to be supplied as data in a list. 
 
 ```{r}
-
 jags_data <- list(y = y,
                   year_index = year_index,
                   est_year = est_year,
@@ -212,22 +211,20 @@ jags_pars <- c("mu_y",
 Then run the model by supplying the data and parameters and connecting to the model specification code (`cp_model`). 
 
 ```{r}
-
 mod <- jags(data = jags_data, 
             parameters.to.save=jags_pars,
             model.file = textConnection(cp_model))
 
 ##create an object containing the posterior samples
 m <- mod$BUGSoutput$sims.matrix
-
 ```
 
 
 ## Results
 
-We're going to use the `tidybayes` package to look at the results as it provides a neat way to extract the posterior samples from the JAGS model object and store them in a tidy format useful for plotting with `ggplot2`.
+We're going to use the `tidybayes` package to look at the results as it provides a neat way to extract the posterior samples from the JAGS model object and store them in a tidy format useful for plotting with `ggplot2`. I've just started using this package and it's really great.
 
-We'll format the posterior samples $\beta$ first of all. 
+We'll format the posterior samples for &beta; first of all. 
 
 ```{r, message=FALSE}
 beta_ind <- factor(1:2) 
@@ -235,7 +232,7 @@ beta_dat <- m %>%
     spread_draws(beta[beta_ind])
 ```
 
-Now let's compare the posterior for &beta;<sub>1<\sub> and &beta;<sub>2<\sub> with the true values. 
+Now let's compare the posterior distributions for &beta;<sub>1<\sub> and &beta;<sub>2<\sub> with the true values. 
 
 ```{r}
 ggplot(beta_dat, aes(x = beta)) +
@@ -264,7 +261,9 @@ ggplot(cp_dat, aes(x = cp)) +
   labs(colour = "")
 ```
 
-Let's local at the model estimates compared to the observations. 
+The results look good (yay!). Make sure to check the other parameters (&alpha; and &sigma;<sub>y<\sub> too (I won't do that here as it's just repeating code).
+  
+Finally, let's look at the model estimates compared to the observations. 
 
 ```{r}
 muy_dat <- m %>%
@@ -278,6 +277,7 @@ ggplot(data = muy_dat) +
   geom_point(data = dat, aes(x = year, y = y)) +
   ylab("y")
 ```
+
 
 ## Summary
 
