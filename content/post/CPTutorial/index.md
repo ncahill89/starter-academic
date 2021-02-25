@@ -100,9 +100,9 @@ __Notes on the model setup__
 
   - This setup makes use of the step function in JAGS to decide if &beta;<sub>1</sub> or &beta;<sub>2</sub> is required, where step(x) = 1 if x &ge; 0 and 0 otherwise. 
   
-  - I've chosen to set up the process model such that we can get estimates of the underlying process for all years within the range of observation years. 
+  - I've chosen to set up the process model such that we can get estimates of the underlying process for all years within the range of observation years (`est_years`). 
 
-  - The data model only links the observations to the process model in years where data are available. In this case, the `year_index` is telling the data model which years are observation years.   
+  - The data model only links the observations to the process model in years where data are available. In this case, the `year_index` will tell the data model which years are observation years.   
   
  
 ## Simulate data
