@@ -298,4 +298,4 @@ This is a starting point for developing Bayesian change-point regression models 
 ## More on Change Point Analysis
 Examples of model specifications for >1 change points can be found [here](https://github.com/ncahill89/CPModel/tree/master/model).
 
-
+Code for the recent analysis on investigating AMOC weakening can be found [here](https://github.com/ncahill89/AMOC-Analysis).
