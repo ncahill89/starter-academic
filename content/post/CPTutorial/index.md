@@ -295,7 +295,7 @@ ggplot(data = muy_dat) +
 
 This is a starting point for developing Bayesian change-point regression models for time series data and using simulated data can be helpful for checking if the model is doing what you expect it to do. 
 
-## More on Change Point Analysis
+## More on Change-Point Analysis
 Examples of model specifications for >1 change points can be found [here](https://github.com/ncahill89/CPModel/tree/master/model).
 
 Code for the recent analysis on investigating AMOC weakening can be found [here](https://github.com/ncahill89/AMOC-Analysis).
