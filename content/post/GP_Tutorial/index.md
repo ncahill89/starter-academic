@@ -177,3 +177,125 @@ ggplot(dat, aes(x = year, y = y)) +
   labs(colour = "")
 ```
 ![](sim_dat_final.png)
+
+## Run the GP model
+
+Now we're going to pretend that our simulated data is real life data (i.e., we don't know the parameter values or the true underlying GP) and run the GP model using JAGS. First, it's always a good idea to write down the model specification. We'll break it down into three components.
+
+**process model**
+
+We'll assume that the expected value of our observed outcome, $y$ is a GP where
+
+$\mu_y = g \sim MVN(0, \Sigma)$
+
+$\Sigma = \sigma_g^2 \exp{(-\phi^2d^2)}$
+
+**data model**
+
+We'll link the observations to the process through a normal data model that allows us to account for the additional random variation in the data.
+
+$y \sim N(\mu_y, \sigma_y^2)$
+
+**priors**
+
+We need priors for all unknown parameters. All parameters should be constrained to be positive.
+
+Here is a JAGS specification for this model:
+
+```{r}
+gp_model <- '
+model{
+
+  gp ~ dmnorm(mu,Sigma.inv)
+  Sigma.inv <- inverse(Sigma)
+  
+  for(i in 1:n_obs)
+  {
+    mu[i] <- 0
+    Sigma[i,i] <- sigma_g^2 + 0.00001
+    for(j in (i+1):n_obs) {
+    Sigma[i,j] <- sigma_g^2*exp(-(phi^2)*(d[i,j]^2))
+    Sigma[j,i] <- Sigma[i,j]
+    }
+      
+    y[i]~dnorm(gp[i],sigma_y^-2)
+  }
+  
+  sigma_g ~ dt(0,10^-2,1)T(0,)
+  phi ~ dt(0,4^-2,1)T(0,)
+  sigma_y ~ dt(0,10^-2,1)T(0,)
+}
+
+'
+```
+
+Once you've specified your JAGS model, the next step is to set up the data to give to the model. Everything that is not a parameter to be estimated needs to be supplied as data in a list.
+
+```{r}
+### get data and estimation years
+x <- dat %>% pull(x)
+y <- dat %>% pull(y)
+n_obs <- length(x)
+dist <- rdist(x) 
+
+
+###The required data
+jags_data <- list(y = y,
+                  n_obs=n_obs,
+                  d = d) 
+```
+
+Before running the model, decide which parameters you want to be stored in the output. Then run the model by supplying the data and parameters and connecting to the model specification code.
+
+```{r, eval = FALSE}
+##parameters to save
+jags_pars <- c("sigma_g",
+               "phi",
+               "sigma_y")  
+##run the model
+mod <- jags(data = jags_data, 
+            parameters.to.save=jags_pars,
+            model.file = textConnection(gp_model),
+            n.iter = 5000,
+            n.burnin = 1000,
+            n.thin = 4)
+
+##create an object containing the posterior samples
+m <- mod$BUGSoutput$sims.matrix
+```
+
+```{r, echo=FALSE, include=FALSE}
+mod <- readRDS("mod.rds")
+m <- mod$BUGSoutput$sims.matrix
+```
+
+## GP Model Results
+
+__GP model parameters__
+
+We'll format the posterior samples for the parameters using the `spread_draws` function from the `tidybayes` package.
+
+```{r, message=FALSE}
+par_dat <- m %>% spread_draws(sigma_g,phi, sigma_y)
+```
+
+Now we can look at the posterior distributions of the parameters vs. the true values.
+
+```{r}
+ggplot(par_dat, aes(x = sigma_g)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(sigma_g), aes(xintercept = sigma_g, colour = "True value"))+
+  labs(colour = "")
+
+
+ggplot(par_dat, aes(x = phi)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(phi), aes(xintercept = phi, colour = "True value"))+
+  labs(colour = "")
+
+
+ggplot(par_dat, aes(x = sigma_y)) +
+  stat_halfeye() +
+  geom_vline(data = tibble(sigma_y), aes(xintercept = sigma_y, colour = "True value"))+
+  labs(colour = "")
+```
