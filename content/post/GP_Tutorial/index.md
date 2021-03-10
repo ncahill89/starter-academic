@@ -26,7 +26,7 @@ You need to consider something called autocorrelation (i.e., when the series of 
 
 ![](autocorr_meme.png)
 
-When developing a GP model in time series context, the autocorrelation function provides the key information on the correlation between the observed data points. The information is based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated the will be.
+When developing a GP model in time series context, the autocorrelation function provides information on the correlation between the observed data points. The information is based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated the will be.
 
 As a very simple analogy, let's assume that we have some measurement of hunger levels at 8:00, 10:00, 13:00 and 17:00 in a given day. Your hunger levels at 10:00 are going to depend on 8:00 levels. For example, if levels are very high at 8:00 then it's likely you will eat something and as a result levels will be lower at 10:00. By 13:00 your levels will mostly be related to 10:00 but may still have some dependence on 8:00. By 17:00 hunger levels are likely to to be unrelated to 8:00 but will have some relationship with 13:00.
 
