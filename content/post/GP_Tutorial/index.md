@@ -34,11 +34,11 @@ If we were to model a time series of hunger level observations using a GP we wou
 
 ![](diff_mat.png)
 
-We can then create an autocorrelation function as a function of these absolute differences. This function can be set up in such a way that the correlation will decay as the difference between the time points increases. For example we can assume exponential decay as a function of the squared distances which would look like this
+From here we can create an autocorrelation function as a function of these absolute differences. This function can be set up in such a way that the correlation will decay as the difference between the time points increases. For example we can assume exponential decay as a function of the squared distances, which would look like this
 
 ![](corr_fun.png)
 
-Let's assume for a momemt that the information about how hunger levels relate to each other is contained within this autocorrelation function matrix. We can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
+Let's assume for a momemt that all the information we need to know about how hunger levels relate to each other is contained within this autocorrelation function matrix. We can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
 
 ![](auto_corr_hunger.png)
 
