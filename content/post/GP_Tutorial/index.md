@@ -38,13 +38,13 @@ We can then create an autocorrelation function as a function of these absolute d
 
 ![](corr_fun.png)
 
-The information about how hunger levels relate to each other is contained within this autocorrelation function matrix. Now can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
+Let's assume for a momemt that the information about how hunger levels relate to each other is contained within this autocorrelation function matrix. We can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
 
 ![](auto_corr_hunger.png)
 
-Using this function to define a GP would imply that once there's 4 hours between measurements they are no longer correlated.
+So, if we used this function to define a GP it would imply that once there's 4 hours between measurements they are no longer correlated.
 
-However, notice that we haven't used any information about actual hunger measurements yet, only the time differences between measurements. In practice, for a GP model we would introduce at least two parameters, one for changing the autocorrelation function decay to make it faster/slower and another to turn the autocorrelation function into a covariance function. Our measurement values (in this case our hypothetical hunger measurements) can then inform the estimation of these parameters.
+However, in practice for a GP model we would introduce at least two parameters, one for changing the autocorrelation function decay to make it faster/slower and another to turn the autocorrelation function into a covariance function. Then we set up a model such that our measurement values (in this case our hypothetical hunger measurements) can then inform the estimation of these parameters.
 
 So hopefully now you have a little bit a intuition for the GP autocorrelation function. What I want to do next is build upon this intuition and simulate some data from a GP model.
 
