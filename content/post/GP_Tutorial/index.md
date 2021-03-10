@@ -100,7 +100,7 @@ plot(d[,1], K[,1],
 
 In this case the decay is slow and there is still some correlation even between points that are 200 years apart.
 
-**Step 3:** Now let's assume we want to speed up the decay. I'm going to introduce a parameter, which I'll call $\phi$. Watch what happens to the exponential decay if I multiply by $\phi^2 = 5^2$
+**Step 3:** Now let's assume we want to speed up the decay. I'm going to introduce a parameter, which I'll call $\phi$. Watch what happens to the exponential decay if I multiply by &phi;<sup>2</sup> = 5<sup>2</sup>$
 
 ```{r}
 phi <- 5
@@ -117,7 +117,7 @@ The correlation is dropping to zero after about 50 years. Note this is just one 
 
 **Simulating GP realisations using a multivariate normal distribution**
 
-Now we are going to make some distributional assumptions about the GP such that it has a multivariate normal (MVN) distribution with mean 0 and covariance matrix $\Sigma = K$. Note the mean doesn't have to be 0 but I'm making this assumption here for simplicity. We can use the `rmvnorm` function to generate realisations of the GP and see what they look like.
+Now we are going to make some distributional assumptions about the GP such that it has a multivariate normal (MVN) distribution with mean 0 and covariance matrix &Sigma; = K. Note the mean doesn't have to be 0 but I'm making this assumption here for simplicity. We can use the `rmvnorm` function to generate realisations of the GP and see what they look like.
 
 ```{r}
 set.seed(28061989)
@@ -129,11 +129,11 @@ matplot(x, t(g),
 
 ![](gp_sim1.png)
 
-I suggest you change the value of $\phi$ to get a feel for the impact that it has on the GP realisations.
+I suggest you change the value of &phi; to get a feel for the impact that it has on the GP realisations.
 
 **Adding in a variance parameter**
 
-Now let's consider another parameter ($\sigma_g$) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and $\sigma_g = 2$, then expect to see a y-axis range of $\sim \pm 6$ (i.e., $\pm$ 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that $\Sigma = \sigma_g^2K$. Let's look at the impact it has on the y-axis range compared to the previous plot.
+Now let's consider another parameter (&sigma;<sub>g</sub>) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and &sigma;<sub>g</sub> = 2, then expect to see a y-axis range of ~ &plusmn; 6 (i.e., &plusmn; 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that &Sigma; = &sigma;<sub>g</sub><sup>2</sup>K$. Let's look at the impact it has on the y-axis range compared to the previous plot.
 
 ```{r}
 set.seed(28061989)
