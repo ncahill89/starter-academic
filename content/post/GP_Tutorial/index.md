@@ -313,7 +313,7 @@ Suppose you want to predict some new y values for some given new x values. Write
 
 Now that we know the formulas for the mean and covariance of this distribution we can easily create the predictions using the posterior estimates of the model parameters.
 
-Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub>*</sub> and &Sigma;<sub>**</sub> highlighted in the equation above
+Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub>*</sub> and &Sigma;<sub>**</sub> highlighted in the equation above.
 
 ```{r}
 n_pred <- 50 # number of predictions
@@ -353,8 +353,9 @@ ggplot(pred_res, aes(x = year, y = pred_mean)) +
   labs(y = "y", colour = "", fill = "") +
   theme_bw() 
 ```
+![](gp_res.png)
 
- ![](BEAUTIFUL.png)
+![](BEAUTIFUL.png)
  
 ## Summary
 
