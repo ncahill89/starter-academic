@@ -329,7 +329,7 @@ Sigma_star_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(x_star,x_star)^2
 
 ```
 
-Now get estimates for the MVN mean and covariance and store the predictions and 95% uncertainty bounds in a tibble. 
+Now estimate the MVN mean and covariance.  These can be used to provide predictions of y<sup>*</sup> with uncertainty.  We'll store the predictions and 95% uncertainty bounds in a tibble. 
 
 ```{r}
 pred_mean <- Sigma_star %*% solve(Sigma, y)
