@@ -100,7 +100,7 @@ plot(d[,1], K[,1],
 
 In this case the decay is slow and there is still some correlation even between points that are 200 years apart.
 
-**Step 3:** Now let's assume we want to speed up the decay. I'm going to introduce a parameter, which I'll call $\phi$. Watch what happens to the exponential decay if I multiply by &phi;<sup>2</sup> = 5<sup>2</sup>$
+**Step 3:** Now let's assume we want to speed up the decay. I'm going to introduce a parameter, which I'll call &phi;. Watch what happens to the exponential decay if I multiply by &phi;<sup>2</sup> = 5<sup>2</sup>
 
 ```{r}
 phi <- 5
@@ -133,7 +133,7 @@ I suggest you change the value of &phi; to get a feel for the impact that it has
 
 **Adding in a variance parameter**
 
-Now let's consider another parameter (&sigma;<sub>g</sub>) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and &sigma;<sub>g</sub> = 2, then expect to see a y-axis range of ~ &plusmn; 6 (i.e., &plusmn; 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that &Sigma; = &sigma;<sub>g</sub><sup>2</sup>K$. Let's look at the impact it has on the y-axis range compared to the previous plot.
+Now let's consider another parameter (&sigma;<sub>g</sub>) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and &sigma;<sub>g</sub> = 2, then expect to see a y-axis range of ~ &plusmn; 6 (i.e., &plusmn; 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that &Sigma; = &sigma;<sub>g</sub><sup>2</sup>K. Let's look at the impact it has on the y-axis range compared to the previous plot.
 
 ```{r}
 set.seed(28061989)
@@ -149,7 +149,7 @@ Note how the shape of the curves didn't change but the range of the y-axis did c
 
 **Simulating data with additional noise**
 
-We'll simulate data assuming that the underlying mechanism driving the variation over time is a GP but that there's also additional random variation in the data too. In this case we'll need one more parameter to describe the random variation, we'll call this $\sigma_y$.
+We'll simulate data assuming that the underlying mechanism driving the variation over time is a GP but that there's also additional random variation in the data too. In this case we'll need one more parameter to describe the random variation, we'll call this &sigma;<sub>y</sub>.
 
 ```{r}
 set.seed(28061989)
@@ -184,17 +184,17 @@ Now we're going to pretend that our simulated data is real life data (i.e., we d
 
 **process model**
 
-We'll assume that the expected value of our observed outcome, $y$ is a GP where
+We'll assume that the expected value of our observed outcome, y is a GP where
 
-$\mu_y = g \sim MVN(0, \Sigma)$
+&mu;<sub>y</sub>= g ~ MVN(0, &Sigma;)
 
-$\Sigma = \sigma_g^2 \exp{(-\phi^2d^2)}$
+&Sigma; = &sigma;<sub>g</sub><sup>2</sup> &exp;(-(&phi;d)<sup>2</sup>)
 
 **data model**
 
 We'll link the observations to the process through a normal data model that allows us to account for the additional random variation in the data.
 
-$y \sim N(\mu_y, \sigma_y^2)$
+y ~ N(&mu;<sub>y</sub>, &sigma;<sub>y</sub><sup>2</sup>)
 
 **priors**
 
