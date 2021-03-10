@@ -305,7 +305,7 @@ These look good. Next we want to create some predictions from the Gaussian Proce
 
 __Predicting from a GP__
 
-We'll assume that we want to predict some new y values (y<sup> * </sup>) for some given new x values (x<sup> * </sup>). We can predict y<sup> * </sup> based on the following Multivariate normal (MVN) predictive distribution
+We'll assume that we want to predict some new y values (y<sup>* </sup>) for some given new x values (x<sup> * </sup>). We can predict y<sup> * </sup> based on the following Multivariate normal (MVN) predictive distribution
 
 ![](gp_pred_formula.png)
 
