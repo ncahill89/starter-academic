@@ -40,16 +40,7 @@ We can then create an autocorrelation function as a function of these absolute d
 
 The information about how hunger levels relate to each other is contained within this autocorrelation function matrix. Now can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
 
-```{r, echo=FALSE}
-mat <- matrix(data = c(0,2,5,9,2,0,3,7,5,3,0,4,9,7,4,0), nrow = 4, ncol = 4)
-dist <- rdist(mat)
-corr_func <- exp(-(dist^2))
 
-dat <- data.frame(dist = c(dist), corr = c(corr_func))
-dat <- dat %>% arrange(dist)
-
-plot(dat$dist, dat$corr, type = "l", ylab = "autocorrelation function", xlab = "time difference (hours)")
-```
 
 Using this function to define a GP would imply that once there's 4 hours between measurements they are no longer correlated.
 
