@@ -359,5 +359,5 @@ ggplot(pred_res, aes(x = year, y = pred_mean)) +
  
 ## Summary
 
-Most of what you need to know about a GP is contained with the autocorrelation/covariance function. It's pretty easy to simulate time dependent data from a GP model once you can create a covariance function. Once you fit a GP model (in this case with JAGS) and know the form of the predictive distribution you can easily obtain model predictions with uncertainty using the posterior estimates of the GP model parameters. 
+Most of what you need to know about a GP is contained with the autocorrelation/covariance function. It's pretty easy to simulate time dependent data from a GP model once you can create an autocorrelation function. Once you fit a GP model (in this case with JAGS) and know the form of the predictive distribution you can easily obtain model predictions with uncertainty using the posterior estimates of the GP model parameters. 
 
