@@ -305,13 +305,13 @@ These look good. Next we want to create some predictions from the Gaussian Proce
 
 __Predicting from a GP__
 
-We'll assume that we want to predict some new y values (y<sup>* </sup>) for some given new x values (x<sup> * </sup>). We can predict y<sup> * </sup> based on the following Multivariate normal (MVN) predictive distribution
+We'll assume that we want to predict some new y values (y<sup>* </sup>) for some given new x values (x<sup>* </sup>). We can predict y<sup>* </sup> based on the following Multivariate normal (MVN) predictive distribution
 
 ![](gp_pred_formula.png)
 
 Now that we know the formulas for the mean and covariance of this distribution we can easily create the predictions using the posterior estimates of the model parameters.
 
-Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub> * </sub> and &Sigma;<sub>**</sub> highlighted in the equation above.
+Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub>* </sub> and &Sigma;<sub>**</sub> highlighted in the equation above.
 
 ```{r}
 n_pred <- 50 # number of predictions
