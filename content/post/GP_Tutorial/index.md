@@ -188,7 +188,7 @@ We'll assume that the expected value of our observed outcome, y is a GP where
 
 &mu;<sub>y</sub>= g ~ MVN(0, &Sigma;)
 
-&Sigma; = &sigma;<sub>g</sub><sup>2</sup> &exp;(-(&phi;d)<sup>2</sup>)
+&Sigma; = &sigma;<sub>g</sub><sup>2</sup> exp(-(&phi;d)<sup>2</sup>)
 
 **data model**
 
@@ -286,16 +286,22 @@ ggplot(par_dat, aes(x = sigma_g)) +
   stat_halfeye() +
   geom_vline(data = tibble(sigma_g), aes(xintercept = sigma_g, colour = "True value"))+
   labs(colour = "")
+```
+![](par1.png)
 
-
+```{r}
 ggplot(par_dat, aes(x = phi)) +
   stat_halfeye() +
   geom_vline(data = tibble(phi), aes(xintercept = phi, colour = "True value"))+
   labs(colour = "")
+```
+![](par2.png)
 
-
+```{r}
 ggplot(par_dat, aes(x = sigma_y)) +
   stat_halfeye() +
   geom_vline(data = tibble(sigma_y), aes(xintercept = sigma_y, colour = "True value"))+
   labs(colour = "")
 ```
+![](par3.png)
+
