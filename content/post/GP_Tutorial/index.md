@@ -40,7 +40,7 @@ We can then create an autocorrelation function as a function of these absolute d
 
 The information about how hunger levels relate to each other is contained within this autocorrelation function matrix. Now can create a simple plot to visualise the relationship between the time differences and the autocorrelation values.
 
-
+![](auto_corr_hunger.png)
 
 Using this function to define a GP would imply that once there's 4 hours between measurements they are no longer correlated.
 
