@@ -20,15 +20,13 @@ featured: false
 
 My aim here is to try to provide the intuition for using a Gaussian process (GP) as a smoother for unevenly spaced, time dependent data. In my own research I have mostly used GPs in the context of modelling changes in relative sea level over time. I have often found myself in the position of trying to explain GP models to people that don't have a statistical background. I'm not sure I've always managed to do a great job, but I'll take stab at it again here.
 
-The thing you always need to be aware of with modelling time dependent data is that observations measured over time are not independent.
-
-You need to consider something called autocorrelation (i.e., when the series of observations is correlated with itself in some way). The key to learning about GPs is to understand the autocorrelation function.
+The thing you always need to be aware of with modelling time dependent data is that observations measured over time are not independent. You need to consider something called autocorrelation (i.e., when the series of observations is correlated with itself in some way). The key to learning about GPs is to understand the autocorrelation function.
 
 ![](autocorr_meme.png)
 
-When developing a GP model in time series context, the autocorrelation function provides information on the correlation between the observed data points. The information is based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated the will be.
+When developing a GP model in a time series context, the autocorrelation function provides information on the correlation between the observed data points. The information is based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated they will be.
 
-As a very simple analogy, let's assume that we have some measurement of hunger levels at 8:00, 10:00, 13:00 and 17:00 in a given day. Your hunger levels at 10:00 are going to depend on 8:00 levels. For example, if levels are very high at 8:00 then it's likely you will eat something and as a result levels will be lower at 10:00. By 13:00 your levels will mostly be related to 10:00 but may still have some dependence on 8:00. By 17:00 hunger levels are likely to to be unrelated to 8:00 but will have some relationship with 13:00.
+As a very simple analogy, let's assume that we have some measurement of hunger levels at 8:00, 10:00, 13:00 and 17:00 in a given day. Your hunger levels at 10:00 are going to depend on 8:00 levels. For example, if levels are very high at 8:00 then it's likely you will eat something and as a result levels will be lower at 10:00. By 13:00 your levels might be related to 10:00 and also still have some dependence on 8:00. By 17:00 hunger levels are likely to to be unrelated to 8:00 but might have some relationship with 13:00.
 
 If we were to model a time series of hunger level observations using a GP we would be trying to describe how the hunger levels are related to each other based on considering the absolute time difference between measurements. A matrix of all the combinations of time differences for the example above would look like this
 
