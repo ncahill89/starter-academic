@@ -313,7 +313,7 @@ Suppose you want to predict some new y values for some given new x values. Write
 
 Now that we know the formulas for the mean and covariance of this distribution we can easily create the predictions using the posterior estimates of the model parameters.
 
-Let's first create the covariance matrices highlighted above
+Let's first create x<sup>*</sup> and the covariance matrices highlighted above
 
 ```{r}
 n_pred <- 50 # number of predictions
