@@ -266,13 +266,14 @@ m <- mod$BUGSoutput$sims.matrix
 
 ## GP Model Results
 
-__GP model parameters__
 
 We'll format the posterior samples for the parameters using the `spread_draws` function from the `tidybayes` package.
 
 ```{r, message=FALSE}
 par_dat <- m %>% spread_draws(sigma_g,phi, sigma_y)
 ```
+
+__Posteriors for GP model parameters__
 
 Now we can look at the posterior distributions of the parameters vs. the true values.
 
