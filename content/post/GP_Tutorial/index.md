@@ -305,3 +305,62 @@ ggplot(par_dat, aes(x = sigma_y)) +
 ```
 ![](par3.png)
 
+
+
+These look good. Next we want to create some predictions from the Gaussian Process model. This requires a little bit more work but there's not really any getting around it.
+
+__Predicting from a GP__
+
+Suppose you want to predict some new $y$ values for some given new $x$ values. Write these new values as $y^*$ and $x^*$ and then predict $y^*$ based on the following Multivariate normal (MVN) predictive distribution
+
+![](gp_pred_formula.png)
+
+Now that we know the formulas for the mean and covariance of this distribution we can easily create the predictions using the posterior estimates of the model parameters.
+
+Let's first create the covariance matrices highlighted above
+
+```{r}
+n_pred <- 50 # number of predictions
+x_star <- seq(min(x), max(x), length.out = n_pred) # new x values
+
+par_est<- par_dat %>% 
+                 mean_qi(sigma_g, phi, sigma_y) # posterior estimate for pars
+
+
+Sigma <-  par_est$sigma_y*2 * diag(n_obs) + par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(x,x)^2)
+Sigma_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(x_star,x)^2)
+Sigma_star_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(x_star,x_star)^2)
+
+```
+
+Now get estimates for the MVN mean and covariance and store the predictions and 95% uncertainty bounds in a tibble. 
+
+```{r}
+pred_mean <- Sigma_star %*% solve(Sigma, y)
+pred_var <- Sigma_star_star - Sigma_star %*% solve(Sigma, t(Sigma_star))
+
+pred_res <- tibble(pred_mean = pred_mean, 
+              year = x_star*100,
+              lwr_95 = pred_mean - 1.96 * sqrt(diag(pred_var)), 
+              upr_95 = pred_mean + 1.96 * sqrt(diag(pred_var)))
+
+```
+
+Plot the results by overlaying the predictions and uncertainty on the original data. Also, remember in this case we can compare the estimated GP (black line) to the truth (pink line).
+
+```{r}
+ggplot(pred_res, aes(x = year, y = pred_mean)) +
+  geom_line() +
+  geom_ribbon(aes(ymin = lwr_95, ymax = upr_95), alpha = 0.3) +
+  geom_point(data = dat, aes(x = year, y = y), alpha = 0.2) +
+  geom_line(data = dat, aes(x = year, y = gp, colour = "true GP")) +
+  labs(y = "y", colour = "", fill = "") +
+  theme_bw() 
+```
+
+ ![](BEAUTIFUL.png)
+ 
+## Summary
+
+Most of what you need to know about a GP is contained with the autocorrelation/covariance function. It's pretty easy to simulate time dependent data from a GP model once you can create a covariance function. Once you fit a GP model with JAGS and know the form of the predictive distribution you can easily obtain model predictions with uncertainty using the posterior estimates of the GP model parameters. 
+
