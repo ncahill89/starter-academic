@@ -44,7 +44,7 @@ Let's assume for a momemt that all the information we need to know about how hun
 
 So, if we used this autocorrelation function to define a GP it would imply that once there's 4 hours between measurements they are no longer correlated.
 
-However, in practice for a GP model we would introduce at least two parameters, one for changing the autocorrelation function decay to make it faster/slower and another to turn the autocorrelation function into a covariance function. Then we set up a model such that our measurement values (in this case our hypothetical hunger measurements) can then inform the estimation of these parameters.
+However, in practice for a GP model we would introduce at least two parameters, one for changing the autocorrelation function decay to make it faster/slower and another to turn the autocorrelation function into a covariance function. Then we set up a model such that our measurement values (in this case our hypothetical hunger measurements) can inform the estimation of these parameters.
 
 So hopefully now you have a little bit a intuition for the GP autocorrelation function. What I want to do next is build upon this intuition and simulate some data from a GP model.
 
