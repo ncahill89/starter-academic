@@ -22,7 +22,7 @@ My aim here is to try to provide the intuition for using a Gaussian process (GP)
 
 The thing you always need to be aware of with modelling time dependent data is that observations measured over time are not independent.
 
-You need to consider something called auto-correlation (i.e., when the series of observations is correlated with itself in some way). The key to learning about Gaussian Processes is to understand the autocorrelation function.
+You need to consider something called autocorrelation (i.e., when the series of observations is correlated with itself in some way). The key to learning about Gaussian Processes is to understand the autocorrelation function.
 
 ![](autocorr_meme.png)
 
