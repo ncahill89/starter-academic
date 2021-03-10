@@ -165,8 +165,6 @@ y <- c(g) + eps # Simulated data = GP + random noise
 
 Now, store and plot the simulated data.
 
-![](finally.png)
-
 ```{r}
 dat = tibble(year = year,
              x = x,
