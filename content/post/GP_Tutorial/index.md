@@ -50,7 +50,7 @@ So hopefully now you have a little bit a intuition for the GP autocorrelation fu
 
 ## Packages
 
-Here's the packages you'll need if you want to continue. We'll also be using JAGS (Just Another Gibbs Sampler). If you need to install JAGS you'll find it here <http://mcmc-jags.sourceforge.net>.
+Here's the packages you'll need if you want to continue. We'll also be using JAGS (Just Another Gibbs Sampler) to fit the GP model. If you need to install JAGS you'll find it here <http://mcmc-jags.sourceforge.net>.
 
 ```{r, eval = FALSE}
 library(R2jags)
