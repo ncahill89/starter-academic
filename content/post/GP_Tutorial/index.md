@@ -28,11 +28,11 @@ When developing a GP model in a time series context, the autocorrelation functio
 
 As a very simple analogy, let's assume that we have some measurement of hunger levels at 8:00, 10:00, 13:00 and 17:00 in a given day. Your hunger levels at 10:00 are going to depend on 8:00 levels. For example, if levels are very high at 8:00 then it's likely you will eat something and as a result levels will be lower at 10:00. By 13:00 your levels might be related to 10:00 and also still have some dependence on 8:00. By 17:00 hunger levels are likely to to be unrelated to 8:00 but might have some relationship with 13:00.
 
-If we were to model a time series of hunger level observations using a GP we would be trying to describe how the hunger levels are related to each other based on considering the absolute time difference between measurements. A matrix of all the combinations of time differences for the example above would look like this
+If we were to model a time series of hunger level observations using a GP, we would be trying to describe how the hunger levels are related to each other based on considering the absolute time difference between measurements. A matrix of all the combinations of time differences for the example above would look like this
 
 ![](diff_mat.png)
 
-From here we can create an autocorrelation function as a function of these absolute differences. This function can be set up in such a way that the correlation will decay as the difference between the time points increases. For example we can assume exponential decay as a function of the squared distances, which would look like this
+From here we can create an autocorrelation function as a function of these absolute differences. This function can be set up in such a way that the correlation will decay as the difference between the time points increases. For example, we can assume exponential decay as a function of the squared distances, and so the matrix would look like this
 
 ![](corr_fun.png)
 
@@ -63,7 +63,7 @@ library(mvtnorm)
 
 **Building the autocorrelation function**
 
-Let's consider a set of 100 unevenly spaced time points from year 1 to 200. I'm going to divide the time years by 100 because it's easier to work with the smaller scale.
+Let's consider a set of 100 unevenly spaced time points from year 1 to 200. I'm going to divide the years by 100 because it's easier to work with the smaller scale.
 
 ```{r}
 set.seed(28061989)
@@ -73,13 +73,13 @@ x <- year/100
 
 Now we're going to work through some steps for building the autocorrelation function.
 
-**Step 1:** We'll create a matrix of distances between every combination of time points using the `rdist` function from the `fields` package.
+**Step 1:** We'll create a matrix of distances between every combination of time points (similar to the matrix I showed for the hunger levels example) using the `rdist` function from the `fields` package.
 
 ```{r}
 d <- fields::rdist(x)
 ```
 
-**Step 2:** We're going to create an autocorrelation function which we'll call K. This will be a function of the distances in `dist` and we're going to make the correlation function decay exponentially.
+**Step 2:** We're going to create an autocorrelation function which we'll call K. This will be a function of the distances in `d` and we're going to make the correlation function decay exponentially.
 
 ```{r}
 K <- exp(-d^2)
@@ -127,11 +127,11 @@ matplot(x, t(g),
 
 ![](gp_sim1.png)
 
-I suggest you change the value of &phi; to get a feel for the impact that it has on the GP realisations.
+I suggest you change the value of &phi; to get a feel for the impact that it has on the autocorrelation function and the subsequent GP realisations.
 
 **Adding in a variance parameter**
 
-Now let's consider another parameter (&sigma;<sub>g</sub>) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and &sigma;<sub>g</sub> = 2, then expect to see a y-axis range of ~ &plusmn; 6 (i.e., &plusmn; 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that &Sigma; = &sigma;<sub>g</sub><sup>2</sup>K. Let's look at the impact it has on the y-axis range compared to the previous plot.
+Now let's consider another parameter (&sigma;<sub>g</sub>) which is a standard deviation parameter that controls the variance of the GP i.e., it will control the range of possibilities on the y-axis. So for example, if the GP is centered on 0 and &sigma;<sub>g</sub> = 2, then expect to see a y-axis range of about &plusmn; 6 (i.e., &plusmn; 3 standard deviations). The parameter is introduced into the covariance function as a variance, such that &Sigma; = &sigma;<sub>g</sub><sup>2</sup>K. Let's look at the impact it has on the y-axis range compared to the previous plot.
 
 ```{r}
 set.seed(28061989)
@@ -147,7 +147,7 @@ Note how the shape of the curves didn't change but the range of the y-axis did c
 
 **Simulating data with additional noise**
 
-We'll simulate data assuming that the underlying mechanism driving the variation over time is a GP but that there's also additional random variation in the data too. In this case we'll need one more parameter to describe the random variation, we'll call this &sigma;<sub>y</sub>.
+Now we'll simulate data assuming that the underlying mechanism driving the variation over time is a GP, but we'll also assume that there's additional random variation in the data too. In this case we'll need one more parameter to describe the random variation, we'll call this &sigma;<sub>y</sub>.
 
 ```{r}
 set.seed(28061989)
@@ -161,7 +161,7 @@ y <- c(g) + eps # Simulated data = GP + random noise
 
 ```
 
-Now, store and plot the simulated data.
+Now, store and plot the simulated data and the simulated GP.
 
 ```{r}
 dat = tibble(year = year,
@@ -301,11 +301,11 @@ ggplot(par_dat, aes(x = sigma_y)) +
 
 
 
-These look good. Next we want to create some predictions from the Gaussian Process model. This requires a little bit more work but there's not really any getting around it.
+These look good. Next we want to create some predictions from the Gaussian Process model. This requires a little bit more work but there's really no getting around it.
 
 __Predicting from a GP__
 
-Suppose you want to predict some new y values for some given new x values. Write these new values as y<sup>*</sup> and x<sup>*</sup> and then predict y<sup>*</sup> based on the following Multivariate normal (MVN) predictive distribution
+We'll assume that we want to predict some new y values (y<sup>*</sup>) for some given new x values (x<sup>*</sup>). We can predict y<sup>*</sup> based on the following Multivariate normal (MVN) predictive distribution
 
 ![](gp_pred_formula.png)
 
