@@ -65,7 +65,7 @@ library(mvtnorm)
 
 **Building the autocorrelation function**
 
-Let's consider a set of 100 unevenly spaced time points from year 1 to 200. I'm going to divide the time points by 100 because it's easier to work with the smaller scale.
+Let's consider a set of 100 unevenly spaced time points from year 1 to 200. I'm going to divide the time years by 100 because it's easier to work with the smaller scale.
 
 ```{r}
 set.seed(28061989)
