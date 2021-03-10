@@ -264,11 +264,6 @@ mod <- jags(data = jags_data,
 m <- mod$BUGSoutput$sims.matrix
 ```
 
-```{r, echo=FALSE, include=FALSE}
-mod <- readRDS("mod.rds")
-m <- mod$BUGSoutput$sims.matrix
-```
-
 ## GP Model Results
 
 __GP model parameters__
