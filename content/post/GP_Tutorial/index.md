@@ -1,6 +1,7 @@
 
 ---
 title: Understanding Gaussian Process Models for Time Series Data
+subtitle: and fitting them using JAGS
 summary: My aim here is to try to provide the intuition for using a Gaussian process (GP) as a smoother for unevenly spaced, time dependent data.
 authors:
   - admin
