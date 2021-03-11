@@ -309,7 +309,7 @@ We'll assume that we want to predict some new y values (y<sup>* </sup>) for some
 
 ![](gp_pred_formula.png)
 
-Now that we know the formulas for the mean and covariance of this distribution we can easily create the predictions using the posterior estimates of the model parameters.
+Now that we know the formulas for the mean and covariance of this predictive distribution we can easily create predictions using the posterior estimates of the model parameters.
 
 Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub> * </sub> and &Sigma;<sub>**</sub> highlighted in the equation above.
 
@@ -327,7 +327,7 @@ Sigma_star_star <- par_est$sigma_g^2*exp(-(par_est$phi^2)*rdist(x_star,x_star)^2
 
 ```
 
-Now estimate the MVN mean and covariance.  These can be used to provide predictions of y<sup>*</sup> with uncertainty.  We'll store the predictions and 95% uncertainty bounds in a tibble. 
+Now estimate the MVN mean and covariance.  These can then be used to provide predictions of y<sup>*</sup> with uncertainty.  We'll store the predictions and 95% uncertainty bounds in a tibble. 
 
 ```{r}
 pred_mean <- Sigma_star %*% solve(Sigma, y)
