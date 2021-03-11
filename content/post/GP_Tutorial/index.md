@@ -25,7 +25,7 @@ The thing you always need to be aware of with modelling time dependent data is t
 
 ![](autocorr_meme.png)
 
-When developing a GP model in a time series context, the autocorrelation function provides information on the correlation between the observed data points. The information is based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated they will be.
+When developing a GP model in a time series context, the autocorrelation function provides information on the correlation between the observed data points based on how far apart the data points are in time, with the assumption being that the further away points are from each other the less correlated they will be.
 
 As a very simple analogy, let's assume that we have some measurement of hunger levels at 8:00, 10:00, 13:00 and 17:00 in a given day. Your hunger levels at 10:00 are going to depend on 8:00 levels. For example, if levels are very high at 8:00 then it's likely you will eat something and as a result levels will be lower at 10:00. By 13:00 your levels might be related to 10:00 and also still have some dependence on 8:00. By 17:00 hunger levels are likely to to be unrelated to 8:00 but might have some relationship with 13:00.
 
@@ -197,7 +197,7 @@ y ~ N(&mu;<sub>y</sub>, &sigma;<sub>y</sub><sup>2</sup>)
 
 **priors**
 
-We need priors for all unknown parameters. All parameters should be constrained to be positive.
+We need priors for unknown parameters &phi;, &sigma;<sub>g</sub> and &sigma;<sub>y</sub>. All parameters should be constrained to be positive.
 
 Here is a JAGS specification for this model:
 
@@ -310,7 +310,7 @@ We'll assume that we want to predict some new y values (y<sup>* </sup>) for some
 
 ![](gp_pred_formula.png)
 
-Now that we know the formulas for the mean and covariance of this predictive distribution we can easily create predictions using the posterior estimates of the model parameters.
+Having  the mean and covariance of this predictive distribution means we can easily create predictions using the posterior estimates of the model parameters.
 
 Let's first create x<sup>*</sup> and the covariance matrices &Sigma;, &Sigma;<sub> * </sub> and &Sigma;<sub>**</sub> highlighted in the equation above.
 
