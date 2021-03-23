@@ -1,6 +1,7 @@
 ---
-title: Map
-summary: Map
+title: Mapping Women in Sea-Level Science
+summary: On international women's day [Juliet Shefton](https://twitter.com/seftongeo?lang=en) created a [slack space for Women in Sea-Level Science](https://t.co/5T91nHj5QM?amp=1). After seeing a blog post by [Monica Alexander](https://www.monicaalexander.com) about [mapping a network of women in demography](https://www.monicaalexander.com/posts/2021-21-02-mapping/) I was interested in visualing where sea-level researchers (who indentify as female or other gender minorites) are located around the globe. Here I've mapped the researchers based on their affiliations. 
+
 authors:
   - admin
 date: "2021-02-18T13:00:00Z"
@@ -14,9 +15,6 @@ featured: false
 #  caption: ''
 #  focal_point: Right
 ---
-
-
-On international women's day [Juliet Shefton](https://twitter.com/seftongeo?lang=en) created a [slack space for Women in Sea-Level Science](https://t.co/5T91nHj5QM?amp=1). After seeing a blog post by [Monica Alexander](https://www.monicaalexander.com) about [mapping a network of women in demography](https://www.monicaalexander.com/posts/2021-21-02-mapping/) I was interested in visualing where sea-level researchers (who indentify as female or other gender minorites) are located around the globe. Here I've mapped the researchers based on their affiliations. 
 
 <!DOCTYPE html>
 <html>
