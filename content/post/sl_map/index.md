@@ -15,7 +15,7 @@ featured: false
 #  focal_point: Right
 ---
 
-```{r}
+```{r, eval = TRUE}
 library(leaflet)
 leaflet() %>%
   addTiles() %>%
