@@ -35,7 +35,7 @@ That feeling didn't leave me for a long time. I didn't feel like I belonged in a
 
 So what did I do? Despite these feelings, I always tried. I said yes to things that scared the crap out of me. I worked really hard and I continued to work hard for 4 years. Overall, I did really enjoy my PhD experience. I had an excellent and supportive supervisor. I gained some confidence along the way, even if it did come and go. I started to get better at coding (relative to how terrible I was in the beginning). I presented my work at lots of conferences and took feedback on board. I worked with lots of wonderful collaborators and went on research visits where I learned so much. I wrote papers with the help those collaborators. I revised papers. I published papers. But, the overriding thought throughout all of this was
 
-**"I just got really lucky"**
+**"I just got really lucky."**
 
 And then, towards the end of my PhD, I had a complete crisis of confidence again.
 
