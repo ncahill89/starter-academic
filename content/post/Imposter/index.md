@@ -39,7 +39,7 @@ So what did I do? Despite these feelings, I always tried. I said yes to things t
 
 And then, towards the end of my PhD, I had a complete crisis of confidence again.
 
-![](mirror_on_the_wall.jpg){width=50%}
+<img src="mirror_on_the_wall.jpg" width="200" height="200">
 
 Sure, I was now pretty comfortable with the work I was doing, but I did that work with the help of my supervisor and collaborators. Without them, I wouldn't have been able to do any of it. I was constantly thinking: "I can't be an independent researcher." "I can't do a postdoc, I don't know enough.", "I don't belong in academia." "Literally everyone in my field is smarter than me."
 
@@ -55,7 +55,8 @@ Funnily enough, the time I spent as a postdoc was the time I felt least like an 
 
 So the imposter syndrome was kept at bay for a little while but it never disappeared and it found ways to rear its ugly head in new ways.
 
-![](imposter_bear.jpg){width=50%}
+<img src="imposter_bear.jpg" width="200" height="200">
+
 
 One way it currently affects me is when I'm asked to review papers. I never feel like I know enough to review a paper and do it justice. I feel like I'll say something really stupid in my review comments or miss something really obvious. I often find myself thinking
 
@@ -67,7 +68,7 @@ Next, is when I'm the only statistician on a paper and it gets media attention (
 
 **"someone will look at my code and discover I've made a huge mistake somewhere."**
 
-<img src="wrong_code.JPG" width="100" height="100">
+<img src="wrong_code.JPG" width="200" height="200">
 
 Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) while thinking
 
@@ -77,7 +78,8 @@ So imagine my surprise when I get positive reviews back on a grant. Now, this is
 
 **"what if I do actually get this funded and I can't do any of the things I said I would do?"**
 
-![](why_am_i_like_this.jpg){width=50%}
+<img src="why_am_i_like_this.jpg" width="200" height="200">
+
 
 Finally, and one of my biggest sources of work related anxiety these days, is being a supervisor. I constantly worry about the direction of graduate student projects and whether or not I'm sending them down the right path and I think
 
@@ -85,6 +87,7 @@ Finally, and one of my biggest sources of work related anxiety these days, is be
 
 So overall, I think feelings related to imposter syndrome evolve and I doubt I'll ever be free of them. Part of me is glad that it keeps me humble, even though I could do without the anxiety that it brings sometimes. Also, for me, the pros of academia out-way the cons. So I guess my take home message from all of this is, if you love academia but you're scared of failing and you feel like you don't belong, just feel the fear and give it a go anyway.
 
-![](feel_the_fear.jpg){width=50%}
+<img src="feel_the_fear.jpg" width="200" height="200">
+
 
 
