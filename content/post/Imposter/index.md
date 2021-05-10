@@ -63,7 +63,7 @@ One way it currently affects me is when I'm asked to review papers. I never feel
 
 But, I do review papers of course and I try my best to do a good job. Where possible, I read through the other reviewers comments to see if their comments were similar to mine (or if they condradict mine) and I like seeing the different reviewing styles. I do think there's a learning curve associated with reviewing and its something I will hopefully gain more confidence with over time.
 
-Other occasions where my brain screams IMPOSTER at me, is when I'm the only statistician on a paper and it gets media attention (note: this isn't something that happens very often). The fear here is not very logical but this honestly gives me so much anxiety. I feel like, "Oh no! Now my work is getting attention and someone will read it and discover all the statistical analysis is completely wrong." Or I'll constantly be checking over the code because I think
+Other occasions where my brain screams IMPOSTER at me, is when I'm the only statistician on a paper and it gets media attention (note: this isn't something that happens very often). The fear here is not very logical, but this honestly gives me so much anxiety. I feel like, "Oh no! Now my work is getting attention and someone will read it and discover all the statistical analysis is completely wrong." Or I'll constantly be checking over the code because I think
 
 **"someone will look at my code and discover I've made a huge mistake somewhere."**
 
