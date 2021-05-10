@@ -31,7 +31,7 @@ That lecturer also emailed the same email to one other student in my class. As i
 
 That feeling didn't leave me for a long time. I didn't feel like I belonged in a PhD program. PhDs were for super smart people, that was not me. Also, I knew absolutely nothing about the world of academia. I didn't know the difference between an Impact Factor and the X Factor. I felt like everyone around me was smarter and more clued-in than I was and I frequently had thoughts along the lines of
 
-**"I don't understand this but I can't say that because then they'll know I don't belong here."**
+**"I don't understand this, but I can't say anything because then they'll know I don't belong here."**
 
 So what did I do? Despite these feelings, I always tried. I said yes to things that scared the crap out of me. I worked really hard and I continued to work hard for 4 years. Overall, I did really enjoy my PhD experience. I had an excellent and supportive supervisor. I gained some confidence along the way, even if it did come and go. I started to get better at coding (relative to how terrible I was in the beginning). I presented my work at lots of conferences and took feedback on board. I worked with lots of wonderful collaborators and went on research visits where I learned so much. I wrote papers with the help those collaborators. I revised papers. I published papers. But, the overriding thought throughout all of this was
 
