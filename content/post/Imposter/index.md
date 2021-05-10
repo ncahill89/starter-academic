@@ -70,7 +70,8 @@ Other occasions where my brain screams IMPOSTER at me, is when I'm the only stat
 
 <img src="wrong_code.JPG" width="400" height="350">
 
-And please don't get me started on doing media interviews. In 2020 I did a couple of interviews for a newspaper and local radio about a paper I was a co-author on. I can't remember a time when I felt more nervous talking about research. There were sweaty palms, heart palpipitations, you name it, I felt it. In the end I got through it without any major malfunctions and my parents were super proud to hear me and the radio, so "silver linings" and all that.
+And please don't get me started on doing media interviews. In 2020 I did a couple of interviews for a newspaper and local radio about a publication that I was a co-author on. I can't remember a time when I felt more nervous talking about research. There were sweaty palms, heart palpipitations, you name it, I felt it. In the end I got through it without any major malfunctions and my parents were super proud to hear me and the radio, so "silver linings" and all that.
+
 
 Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) while thinking
 
