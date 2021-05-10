@@ -1,6 +1,7 @@
 ---
 title: Imposter Syndrome
-summary: authors:
+summary: 
+authors:
   - admin
 date: "2021-02-18T13:00:00Z"
 lastMod: "2021-02-18T00:00:00Z"
