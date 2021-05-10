@@ -81,7 +81,7 @@ To my surprise, I did get positive reviews back on this grant recently. I still 
 
 <img src="why_am_i_like_this.jpg" width="400" height="400">
 
-Finally, and one of my biggest sources of work related anxiety these days, is being a supervisor. I constantly worry about the direction of graduate student projects and whether or not I'm sending the students that I supervise down the right path. I think
+Finally,  one of my biggest sources of work related anxiety these days is being a supervisor. I constantly worry about the direction of graduate student projects and whether or not I'm sending the students that I supervise down the right path. I think
 
 **"what if I'm not a good mentor and I fail them?"**
 
