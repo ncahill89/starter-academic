@@ -1,6 +1,6 @@
 ---
 title: Imposter Syndrome
-summary: 
+summary: At the end of my MSc year, my Bayesian Analysis lecturer sent me an email...
 authors:
   - admin
 date: "2021-02-18T13:00:00Z"
