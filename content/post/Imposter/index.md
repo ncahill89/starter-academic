@@ -57,7 +57,6 @@ So the imposter syndrome was kept at bay for a little while, but it never disapp
 
 <img src="imposter_bear.jpg" width="400" height="400">
 
-
 One way it currently affects me is when I'm asked to review papers. I never feel like I know enough to review a paper and do it justice. I feel like I'll say something really stupid in my review comments or miss something really obvious. I often find myself thinking
 
 **"I bet the other reviewers will do a much better job at this than I will."**
@@ -72,7 +71,6 @@ Other occasions where my brain screams IMPOSTER at me, is when I'm the only stat
 
 And please don't get me started on doing media interviews. In 2020 I did a couple of interviews for a newspaper and local radio about a publication that I was a co-author on. I can't remember a time when I felt more nervous talking about research. There were sweaty palms, heart palpipitations, you name it, I felt it. In the end I got through it without any major malfunctions. Also, my parents were super proud to hear me and the radio, so "silver linings" and all that.
 
-
 Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) while thinking
 
 **"there's no way this will ever get funded, it's not good enough."**
@@ -83,12 +81,11 @@ So imagine my surprise when I get positive reviews back on a grant. Now, this is
 
 <img src="why_am_i_like_this.jpg" width="400" height="400">
 
-
-Finally, and one of my biggest sources of work related anxiety these days, is being a supervisor. I constantly worry about the direction of graduate student projects and whether or not I'm sending the students that I supervise down the right path and I think
+Finally, and one of my biggest sources of work related anxiety these days, is being a supervisor. I constantly worry about the direction of graduate student projects and whether or not I'm sending the students that I supervise down the right path. I think
 
 **"what if I'm not a good mentor and I fail them?"**
 
-In some ways, I equate supervising with parenting. I feel like my student's futures are in my hands and I am just learning as I go and trying desparately not to mess it up. 
+In some ways, I equate supervising students with parenting because I have similar feelings about being a Mother. I feel like their futures are in my hands and I am just learning as I go and trying desparately not to mess it up. 
 
 So overall, I think feelings related to imposter syndrome evolve and I doubt I'll ever be free of them. Part of me is glad that it keeps me humble, even though I could do without the anxiety that it brings sometimes. Also, for me, the pros of academia out-way the cons. So I guess my take home message from all of this is, if you love academia but you're scared of failing and you feel like you don't belong, just feel the fear and give it a go anyway.
 
