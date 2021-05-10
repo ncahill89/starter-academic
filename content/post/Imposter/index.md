@@ -29,7 +29,7 @@ That lecturer also emailed the same email to one other student in my class. As i
 
 **"The only reason I got offered this PhD is because she didn't want it."**
 
-That feeling didn't leave me for a long time. I didn't feel like I belonged in a PhD program. PhD's were for super smart people, that was not me. Also, I knew absolutely nothing about the world of academia. I didn't know the difference between an Impact Factor and the X factor. I felt like everyone around me was smarter and more clued-in than I was and I frequently had thoughts along the lines of
+That feeling didn't leave me for a long time. I didn't feel like I belonged in a PhD program. PhDs were for super smart people, that was not me. Also, I knew absolutely nothing about the world of academia. I didn't know the difference between an Impact Factor and the X factor. I felt like everyone around me was smarter and more clued-in than I was and I frequently had thoughts along the lines of
 
 **"I don't understand this but I can't say that because then they'll know I don't belong here."**
 
