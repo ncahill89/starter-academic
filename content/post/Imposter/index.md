@@ -25,7 +25,7 @@ You did really well in the Bayesian Analysis exam and I am wondering if you woul
 
 ![](imposter.jpg)
 
-That lecturer also emailed the same email to one other student in my class. As it turned she was moving away from Ireland and so wasn't interested in doing a PhD here. Now, it didn't matter that we got pretty much the exact same over all grade for the M.Sc program, my exact thoughts at this time were
+That lecturer also emailed the same email to one other student in my class. As it turned she was moving away from Ireland and so wasn't interested in doing a PhD here. But, because I knew she had recieved that email too, my exact thoughts at this time were
 
 **"The only reason I got offered this PhD is because she didn't want it."**
 
