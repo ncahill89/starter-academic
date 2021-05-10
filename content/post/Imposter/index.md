@@ -47,7 +47,7 @@ Sure, I was now pretty comfortable with the work I was doing, but I did that wor
 
 BUT, thankfully I did end up doing a postdoc and I can honestly say it was one of the best things that ever happened to me. Of course there were ups and downs and it took me a while to get to grips with a new field of research, but I had a wonderful supervisor and I found my feet relatively quickly.
 
-[**Sidenote:** If I could give one piece of advice to PhD students, it would be don't be afraid to reach out to people that you would like to work with, even if you don't know them personally. The worst that could happen is that they ignore your email and the best that can happen is that a year later you end up doing a postdoc with them.]
+[**Sidenote:** If I could give one piece of advice to PhD students, it would be don't be afraid to reach out to people that you would like to work with, even if you don't know them personally. The worst that could happen is that they ignore your email and the best that could happen is that a year later you end up doing a postdoc with them.]
 
 Funnily enough, the time I spent as a postdoc was the time I felt least like an imposter in academia. I'm not sure why exactly, I guess part of it was just knowing more about how the world of academia worked. It also helped that I hit the postdoc jackpot. I loved the work I was doing and for the first time I had thoughts like
 
