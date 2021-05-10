@@ -1,5 +1,5 @@
 ---
-title: My experience with Imposter Syndrome
+title: My Experience with Imposter Syndrome
 summary: At the end of my MSc year, my Bayesian Analysis lecturer sent me an email...
 authors:
   - admin
