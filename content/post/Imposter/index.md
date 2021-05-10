@@ -71,13 +71,13 @@ Other occasions where my brain screams IMPOSTER at me, is when I'm the only stat
 
 And please don't get me started on doing media interviews. In 2020 I did a couple of interviews for a newspaper and local radio about a publication that I was a co-author on. I can't remember a time when I felt more nervous talking about research. There were sweaty palms, heart palpipitations, you name it, I felt it. In the end I got through it without any major malfunctions. Also, my parents were super proud to hear me and the radio, so "silver linings" and all that.
 
-Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) while thinking
+Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) and I wrote a grant proposal. Of course, I submitted it thinking
 
 **"there's no way this will ever get funded, it's not good enough."**
 
-So imagine my surprise when I get positive reviews back on a grant. Now, this is academia so positive reviews do not equal funding but in any case now my thoughts turn to
+To my surprise, I did get positive reviews back on this grant recently. I still don't know the final outcome and this is academia so positive reviews do not equal funding but in any case now my thoughts have now turned to
 
-**"what if I do actually get this funded and I can't do any of the things I said I would do?"**
+**"what if I do actually get this funded but it's a huge failure because I can't do any of the things I said I would do?"**
 
 <img src="why_am_i_like_this.jpg" width="400" height="400">
 
