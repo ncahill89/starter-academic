@@ -87,7 +87,7 @@ Finally, and one of my biggest sources of work related anxiety these days, is be
 
 In some ways, I equate supervising students with parenting because I have similar feelings about being a Mother. I feel like their futures are in my hands and I am just learning as I go and trying desparately not to mess it up. 
 
-So overall, I think feelings related to imposter syndrome evolve and I doubt I'll ever be free of them. Part of me is glad that it keeps me humble, even though I could do without the anxiety that it brings sometimes. Also, for me, the pros of academia out-way the cons. So I guess my take home message from all of this is, if you love academia but you're scared of failing and you feel like you don't belong, just feel the fear and give it a go anyway.
+So overall, I think feelings related to imposter syndrome evolve and I doubt I'll ever be free of them. Part of me is glad that it keeps me humble, even though I could do without the anxiety that it brings sometimes. Having said all of this, I really do love academia (warts and all) and i'm very fortunate to have the job that I do.  So I guess my take home message from all of this is, if you love academia but you're scared of failing and you feel like you don't belong, just feel the fear and give it a go anyway.
 
 <img src="feel_the_fear.jpg" width="400" height="400">
 
