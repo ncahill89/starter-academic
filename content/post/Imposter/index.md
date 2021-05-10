@@ -75,7 +75,7 @@ Then there's grant writing. I will caveat this by saying that I don't really see
 
 **"there's no way this will ever get funded, it's not good enough."**
 
-To my surprise, I did get positive reviews back on this grant recently. I still don't know the final outcome and this is academia so positive reviews do not equal funding but in any case now my thoughts have now turned to
+To my surprise, I did get positive reviews back on this grant recently. I still don't know the final outcome, and this is academia so positive reviews do not equal funding, but in any case now my thoughts have now turned to
 
 **"what if I do actually get this funded but it's a huge failure because I can't do any of the things I said I would do?"**
 
