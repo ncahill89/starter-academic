@@ -53,7 +53,7 @@ Funnily enough, the time I spent as a postdoc was the time I felt least like an 
 
 **"I feel confident about my ability to do this."**
 
-So the imposter syndrome was kept at bay for a little while but it never disappeared and it found ways to rear its ugly head in new ways.
+So the imposter syndrome was kept at bay for a little while, but it never disappeared, instead it just reared its ugly head in new ways.
 
 <img src="imposter_bear.jpg" width="400" height="400">
 
