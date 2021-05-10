@@ -67,7 +67,7 @@ Next, is when I'm the only statistician on a paper and it gets media attention (
 
 **"someone will look at my code and discover I've made a huge mistake somewhere."**
 
-![](wrong_code.JPG){width=50%}
+![](wrong_code.JPG,width=50%)
 
 Then there's grant writing. I will caveat this by saying that I don't really see myself as an "ideas person" and I found the thought of writing a grant proposal really daunting. But, I persevered (with help from some wonderful colleagues) while thinking
 
