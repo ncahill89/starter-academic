@@ -15,7 +15,7 @@ featured: false
 #  focal_point: Right
 ---
 
-At the end of my MSc year, my Bayesian Analysis lecturer sent me an email
+At the end of my MSc year, my Bayesian Analysis lecturer sent me an email:
 
 Dear Niamh,
 
