@@ -1,6 +1,6 @@
 ---
 title: My Experience with Imposter Syndrome
-summary: At the end of my MSc year, my Bayesian Analysis lecturer sent me an email...
+summary: At the end of my M.Sc year, my Bayesian Analysis lecturer sent me an email...
 authors:
   - admin
 date: "2021-02-18T13:00:00Z"
@@ -15,7 +15,7 @@ featured: false
 #  focal_point: Right
 ---
 
-At the end of my MSc year, my Bayesian Analysis lecturer sent me an email:
+At the end of my M.Sc year, my Bayesian Analysis lecturer sent me an email:
 
 Dear Niamh,
 
