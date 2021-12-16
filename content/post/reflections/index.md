@@ -109,7 +109,7 @@ __Feedback__
 
 Here is some feedback I received on the use of the menti quizzes. 
 
-<img src="Menti_feedback.png" width="400" height="400">
+<img src="Menti_feedback.png" width="600" height="400">
 
 
 ### Online Options
@@ -130,7 +130,7 @@ __Feedback__
 
 Providing students with online alternatives was by far the thing that was commented on most in module evaluations. Here's some of the feedback I received. 
 
-<img src="Online_feedback.png" width="400" height="400">
+<img src="Online_feedback.png" width="600" height="400">
 
 ### Some improvements
 
@@ -148,7 +148,7 @@ Providing students with online alternatives was by far the thing that was commen
 
 These improvements are informed by the feedback below. 
 
-<img src="improvements.png" width="400" height="400">
+<img src="improvements.png" width="600" height="400">
 
 
 # Pits and Peaks
@@ -162,7 +162,7 @@ Something I found really hard this semester is that I felt like I was constantly
 
 The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
 
-<img src="peak.png" width="400" height="400">
+<img src="peak.png" width="600" height="200">
 
 
 # The End (of the semester)
