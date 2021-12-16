@@ -55,15 +55,6 @@ __Data Analysis__
 
 Both of the modules I lectured had a significant coding component. For the Data Analysis module I structured my lectures such that one of the lectures was slide-based and provided some background, theory and context and then the next lecture was code-based and put content covered in the previous lecture into practice using R. Here's an example lecture structure for this module:
 
-+-------------------------------------------------------+--------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Lecture                                               | Type   | Content                                                                                                                                                    |
-+=======================================================+========+============================================================================================================================================================+
-| Association Between Categorical Variables - Lecture A | Slides | Contingency tables, marginal and conditional distributions, barplots for visualising relationships between groups, Pearsons' Chi-sq test for independence. |
-+-------------------------------------------------------+--------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Association Between Categorical Variables - Lecture B | R Demo | R functions: table(), barplot(), chisq.test()                                                                                                              |
-+-------------------------------------------------------+--------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                       |        |                                                                                                                                                            |
-+-------------------------------------------------------+--------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 The students really seemed to like the mix of both types of lectures. They were encouraged to bring laptops to the R Demo lecture (but this was not a requirement) and I think the more practical based R-lecture helped them stay engaged with the material.
 
