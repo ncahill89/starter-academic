@@ -3,8 +3,8 @@ title: Some reflections on coming back to teaching on campus
 summary: After teaching online since March 2020 we had to adjust back to face to face teaching and campus life at the beginning of the new academic year (Sept 2021). These are some refelctions on the experience.
 authors:
   - admin
-date: "2021-12-18T13:00:00Z"
-lastMod: "2021-12-18T00:00:00Z"
+date: "2021-12-15T13:00:00Z"
+lastMod: "2021-12-15T00:00:00Z"
 #tags: []
 
 # Is this a featured talk? (true/false)
