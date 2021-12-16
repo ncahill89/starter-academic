@@ -55,14 +55,10 @@ __Data Analysis__
 
 Both of the modules I lectured had a significant coding component. For the Data Analysis module I structured my lectures such that the first lecture of the week was slide-based and the second was code-based.  The slide-based lectured aimed to provide some background, theory and context and then the code-based lecture aimed to put the content covered in the previous lecture into practice using R. Here's an example lecture structure for this module:
 
-+---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Lecture                                                 | Type   | Content                                                                                                                                                      |
-+=========================================================+========+==============================================================================================================================================================+
-| | Association Between Categorical Variables  (Lecture A) | Slides | | Contingency tables, marginal and conditional distributions, barplots for visualising relationships between groups, Pearsons' Chi-sq test for independence. |
-+---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| | Association Between Categorical Variables (Lecture B) | Code   | | R functions: table(), barplot(), chisq.test()                                                                                                              |
-+---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
+| Lecture                              | Type          | Content                                                                                                                                                                               |
+|--------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Association Between Categorical Variables  (Lecture A) | Slides | Contingency tables, marginal and conditional distributions, barplots for visualising relationships between groups, Pearsons' Chi-sq test for independence.  |
+| Association Between Categorical Variables (Lecture B)  | Code | R functions: table(), barplot(), chisq.test().                                     |
 
 
 The students really seemed to like the mix of both types of lectures. They were encouraged to bring laptops to the code-based lecture (but this was not a requirement) and I think the more practical based R-lecture helped them stay engaged with the material.
