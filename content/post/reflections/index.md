@@ -29,11 +29,13 @@ I hadn't stood up in front of a large group of people for quite a long time and 
 
 I have a 4 year old son and being without childcare for covid related reasons was a constant source of worry. Thankfully, we got through the semester without much disruption. However during the semester and without the benefit of hindsight, every slight cough or runny nose provided a lovely (not) microdose of anxiety.
 
-![](sneeze.JPG){width="50%"}
+<img src="sneeze.JPG" width="400" height="400">
+
 
 ### Back to normal?
 
 The narrative was that campus life was going "back to normal". But everything was very far from normal. We all had to be constantly on guard for covid symptoms. Two days before term started I got a PCR test because I had a cold and needed to rule out covid. I was doing antigen tests regularly througout the semester. Masks were mandadated for lectures. Vaccines were not. Students needed online options in case they couldn't attend lectures. Lecturers had to find a way to provide the hybrid. Overall, I think this contributed to baseline anxiety levels being higher than ever among both students and staff.
+
 
 ![](normal.jpg){:height="50%" width="50%"}
 
