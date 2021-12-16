@@ -58,9 +58,9 @@ Both of the modules I lectured had a significant coding component. For the Data 
 +---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Lecture                                                 | Type   | Content                                                                                                                                                      |
 +=========================================================+========+==============================================================================================================================================================+
-| | Association Between Categorical Variables - Lecture A | Slides | | Contingency tables, marginal and conditional distributions, barplots for visualising relationships between groups, Pearsons' Chi-sq test for independence. |
+| | Association Between Categorical Variables  (Lecture A) | Slides | | Contingency tables, marginal and conditional distributions, barplots for visualising relationships between groups, Pearsons' Chi-sq test for independence. |
 +---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| | Association Between Categorical Variables - Lecture B | Code   | | R functions: table(), barplot(), chisq.test()                                                                                                              |
+| | Association Between Categorical Variables (Lecture B) | Code   | | R functions: table(), barplot(), chisq.test()                                                                                                              |
 +---------------------------------------------------------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
