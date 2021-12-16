@@ -148,7 +148,7 @@ Providing students with online alternatives was by far the thing that was commen
 
 These improvements are informed by the feedback below. 
 
-<img src="improvements.png" width="600" height="400">
+<img src="improvements.png" width="600" height="300">
 
 
 # Pits and Peaks
@@ -156,13 +156,13 @@ These improvements are informed by the feedback below.
 
 Something I found really hard this semester is that I felt like I was constantly chasing my tail. Developing the slides and code for an advanced module that was brand new, along with tutorial sheets, assignment sheets and exam papers was alot of work. I didn't feel I had much time left to dedicate to anything else during the semester and I don't feel like I had much room to switch off. I was picking up my laptop most nights after I put my son to bed to catch up on things. I had a paper that I really wanted to finish and I just couldn't find a block of time to sit down and work on it. I feel really guilty about this because there's people relying on me to get this paper published but it just required more of me than I was able to give in terms of mental capacity. So this paper is currently in a pit and I did not manage to tick off the to do list below, but hopefully I can turn it into a peak soon.
 
-<img src="paper_todo.png" width="400" height="400">
+<img src="paper_todo.png" width="200" height="200">
 
 
 
 The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
 
-<img src="peak.png" width="600" height="200">
+<img src="peak.png" width="600" height="100">
 
 
 # The End (of the semester)
