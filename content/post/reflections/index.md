@@ -23,7 +23,7 @@ The beginning of the new academic year in September 2021 was my first time Face 
 
 I hadn't stood up in front of a large group of people for quite a long time and I wasn't really sure what my F2F teaching style even was anymore. I had become very comfortable with pre-recording my lectures and in particular being able to edit them. I really needed to build my confidence back up again for standing up, speaking out and making mistakes.
 
-![](I_dont_like_this.jpg){width="50%"}
+<img src="I_dont_like_this.jpg" width="400" height="400">
 
 ### Childcare
 
