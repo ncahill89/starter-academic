@@ -35,7 +35,7 @@ I have a 4 year old son and being without childcare for covid related reasons wa
 
 The narrative was that campus life was going "back to normal". But everything was very far from normal. We all had to be constantly on guard for covid symptoms. Two days before term started I got a PCR test because I had a cold and needed to rule out covid. I was doing antigen tests regularly througout the semester. Masks were mandadated for lectures. Vaccines were not. Students needed online options in case they couldn't attend lectures. Lecturers had to find a way to provide the hybrid. Overall, I think this contributed to baseline anxiety levels being higher than ever among both students and staff.
 
-![](normal.jpg){width="50%"}
+![](normal.jpg){:height="50%" width="50%"}
 
 ### Covid
 
