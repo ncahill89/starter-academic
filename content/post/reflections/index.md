@@ -93,14 +93,14 @@ __Data Analysis__
 
 For my Data Analysis module I started one lecture each week with a quiz that had 3/4 multiple choice questions. The students could log onto the quiz easily from their phones and could answer the questions anonymously. Once everyone had given an answer a barplot of the results would show on the screen and then I would go through a quick explanation. Here's an example of what the quiz results look like.
 
-<img src="example_menti.png" width="300" height="300">
+<img src="example_menti.png" width="200" height="200">
 
 
 __Bayesian Analysis__
 
 For my Bayesian Data Analysis module I used these quizzes at the beginning of the semester before we got into more practical hands on modeling. In this case I framed the questions so that students had to provide an answer. Here's an example of what the quiz results look like in this case.
 
-<img src="example2_menti.png" width="400" height="300">
+<img src="example2_menti.png" width="200" height="200">
 
 
 I think this worked very well in both modules in terms of increasing engagement. Also, the anonymity meant the students would participate without worry about getting the answer wrong.
@@ -109,7 +109,7 @@ __Feedback__
 
 Here is some feedback I received on the use of the menti quizzes. 
 
-<img src="Menti_feedback.png" width="600" height="300">
+<img src="Menti_feedback.png" width="600" height="200">
 
 
 ### Online Options
