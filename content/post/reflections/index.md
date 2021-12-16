@@ -53,7 +53,7 @@ I had two modules this semester. **Data analysis** which was an introductory lev
 
 __Data Analysis__
 
-Both of the modules I lectured had a significant coding component. For the Data Analysis module I structured my lectures such that the first lecture of the week was slide-based and the second was code-based.  The slide-based lectured aimed to provide some background, theory and context and then the code-based lecture aimed to put the content covered in the previous lecture into practice using R. Here's an example lecture structure for this module:
+Both of the modules I lectured had a significant coding component. For the Data Analysis module I structured my lectures such that the first lecture of the week was slide-based and the second was code-based.  The slide-based lecture aimed to provide some background, theory and context and then the code-based lecture aimed to put the content covered in the previous lecture into practice, using R. Here's an example lecture structure for this module:
 
 | Lecture                              | Type          | Content                                                                                                                                                                               |
 |--------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,19 +87,19 @@ When I was teaching remotely I started giving the students short quizzes using a
 
 __Data Analysis__
 
-For my Data Analysis module I started one lecture each week with a quiz that had 3/4 multiple choice questions. The students could log onto the quiz easily from their phones and could answer the questions anonymously. Once everyone had given an answer a barplot of the results would show on the screen and then I would go through a quick explanation. Here's an example of what the quiz results look like.
+For my Data Analysis module I started one lecture each week with a quiz that had 3/4 multiple choice questions. The students could log onto the quiz easily from their phones and could answer the questions anonymously. Once everyone had given an answer, a barplot of the results would show on the screen and then I would go through a quick explanation. Here's an example of what the quiz results look like:
 
 <img src="example_menti.png" width="400" height="300">
 
 
 __Bayesian Analysis__
 
-For my Bayesian Data Analysis module I used these quizzes at the beginning of the semester before we got into more practical hands on modeling. In this case I framed some of the questions so that students had to provide an answer. Here's an example of what the quiz results looked like.
+For my Bayesian Data Analysis module I used these quizzes at the beginning of the semester before we got into the more practical hands-on modeling. In this case I framed some of the questions so that students had to provide an answer. Here's an example of what the quiz results looked like:
 
 <img src="example2_menti.png" width="400" height="300">
 
 
-I think the use of [mentimeter](https://www.mentimeter.com) worked very well in both modules in terms of increasing engagement. Also, the anonymity meant the students would participate without worry about getting the answer wrong.
+I think the use of [mentimeter](https://www.mentimeter.com) worked very well in both modules in terms of increasing engagement. Also, the anonymity meant the students would participate without worrying about getting the answer wrong.
 
 __Feedback__
 
@@ -114,13 +114,13 @@ At the beginning of the semester I made the decision to provide online alternati
 
 1.  I made use of pre-recorded lectures. For my Data Analysis module, I had a full set of pre-recorded lectures which I had prepared last year when I taught this course. I made the relevant videos available to the students each time the topic had been covered in the F2F lectures;
 
-2.  The Bayesian module was new so I decided to do live lecture recordings. I used Panopto and it worked well. Using Panopto also meant that the videos got automatically uploaded to Moodle which was really useful;
+2.  The Bayesian module was new, so I decided to do live lecture recordings. I used Panopto and it worked well. Using Panopto also meant that the videos got automatically uploaded to Moodle which was really useful;
 
 3.  I bought my own [webcam](https://www.amazon.co.uk/dp/B07TXNT3GL/ref=pe_27063361_487055811_TE_dp_1) that had a wide angle view. The webcams that were installed in the lecture rooms were static and fixed in place, which wasn't great. Also, I much prefer using my own laptop for teaching and the installed cameras were only connected to the desktops in the lecture rooms. The webcam cost about 50euro and was a worthwhile investment in my opinion;
 
 4.  I made sure I could access everything I needed for my lecture from the web browser. I had my slides on one tab and the R studio server on another tab. This meant that once I hit record on the lecture I didn't need to mess around with switching between screen shares and instead I just toggled between tabs;
 
-5.  Sometimes I would hand write additional calculations during the lectures. For this, I used an app called [replica](https://apps.apple.com/us/app/display-mirror-replica-app/id1468495939) combined with a white board app, both on my ipad. Replica allowed me to replicate my ipad screen on my laptop. I could again share this on a web browser tab, so this was super handy for the lecture recordings. This provided a really good alternative to using the doc-cam or a white board as with these the additional notes would have been hard to capture in the lecture video.
+5.  Sometimes I would hand write additional calculations during the lectures. For this, I used an app called [replica](https://apps.apple.com/us/app/display-mirror-replica-app/id1468495939) combined with a white board app, both on my ipad. Replica allowed me to replicate my ipad screen on my laptop. I could again share this on a web browser tab, so this was super handy for the lecture recordings. This provided a really good alternative to using the doc-cam or a white board (which would have made it difficult to capture the additional notes in the lecture video).
 
 __Feedback__ 
 
@@ -132,7 +132,7 @@ Providing students with online alternatives was by far the thing that was commen
 
 **Data Analysis**
 
--   Based on some feedback, I might update my lecture slides for Data Analysis to embed some more R code into them and to flesh them out a bit more. I provided the students with the R scrips for the Demo classes, but I think having some of the R code in the lecture slides might be helpful when it comes to tying everything together for this particular module.
+-   Based on some feedback, I might update my lecture slides for Data Analysis to embed some more R code into them and to flesh them out a bit more. I provided the students with the R scrips from the code-based lectures, but I think having some of the R code in the lecture slides might be helpful when it comes to tying everything together for this particular module.
 
 -   The lecture slides might benefit from some added explanation for when the students look back on them.
 
@@ -150,13 +150,13 @@ These improvements are informed by the feedback below.
 # Pits and Peaks
 
 
-Something I found really hard this semester is that I felt like I was constantly chasing my tail. Developing the slides and code for an advanced module that was brand new, along with tutorial sheets, assignment sheets and exam papers, was alot of work. I didn't feel I had much time left to dedicate to anything else during the semester and I don't feel like I had much room to switch off. I was picking up my laptop most nights after I put my son to bed to catch up on things. I had a paper that I really wanted to finish and I just couldn't find a block of time to sit down and work on it. I feel really guilty about this because there's people relying on me to get this paper published, but it just required more of me than I was able to give in terms of mental capacity. So this paper is currently in a pit and I did not manage to tick off the to do list below, but hopefully I can turn it into a peak soon.
+Something I found really hard this semester is that I felt like I was constantly chasing my tail. Developing the slides and code for an advanced module that was brand new, along with tutorial sheets, assignment sheets and exam papers, was alot of work. I didn't feel I had much time left to dedicate to anything else during the semester and I don't feel like I had much room to switch off. I was picking up my laptop most nights after I put my son to bed to catch up on things. I had a paper that I really wanted to finish and I just couldn't find a block of time to sit down and work on it. I feel really guilty about this because there's people relying on me to get this paper published, but it just required more of me than I was able to give in terms of mental capacity. So this paper is currently in a pit and I did not manage to tick off the to-do list below, but hopefully I can turn it into a peak soon.
 
 <img src="paper_todo.png" width="200" height="200">
 
 
 
-The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
+The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching had made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
 
 <img src="peak.png" width="600" height="100">
 
