@@ -43,7 +43,8 @@ The narrative was that campus life was going "back to normal". But everything wa
 
 Masks were mandated just before the semester started and so I was a bit concerned have having to police that (in the end I had nothing to worry about, students were very respectful in lectures about wearing masks which was a huge relief). My worries about getting covid were more related to passing it onto somebody else (my unvaccinated 4yr old son, or my parents) and this worry increased as we went through the semester. Cases were (are) very high and nightclubs etc reopened in the middle of the semester. Towards the end of the semester, while I was genuinely enjoying lecturing F2F and having more meaningful interactions with the students, I was also really starting to feel like I wanted to avoid the University as much as possible. Having the constant covid cloud hang over everything was (is) really exhausting.
 
-![](palgue.jpg){width="50%"}
+<img src="palgue.JPG" width="400" height="400">
+
 
 # The Teaching
 
@@ -82,7 +83,8 @@ __Feedback__
 
 Here is some feedback I received on the lecture structure. 
 
-![](R_feedback.png){width="80%"}
+<img src="R_feedback.png" width="400" height="400">
+
 
 ### Interactive Quizzes
 
@@ -92,13 +94,15 @@ __Data Analysis__
 
 For my Data Analysis module I started one lecture each week with a quiz that had 3/4 multiple choice questions. The students could log onto the quiz easily from their phones and could answer the questions anonymously. Once everyone had given an answer a barplot of the results would show on the screen and then I would go through a quick explanation. Here's an example of what the quiz results look like.
 
-![](example_menti.png){width="80%"}
+<img src="example_menti.png" width="400" height="400">
+
 
 __Bayesian Analysis__
 
 For my Bayesian Data Analysis module I used these quizzes at the beginning of the semester before we got into more practical hands on modeling. In this case I framed the questions so that students had to provide an answer. Here's an example of what the quiz results look like in this case.
 
-![](example2_menti.png){width="80%"}
+<img src="example2_menti.png" width="400" height="400">
+
 
 I think this worked very well in both modules in terms of increasing engagement. Also, the anonymity meant the students would participate without worry about getting the answer wrong.
 
@@ -106,7 +110,7 @@ __Feedback__
 
 Here is some feedback I received on the use of the menti quizzes. 
 
-![](Menti_feedback.png){width="80%"}
+<img src="Menti_feedback.png" width="400" height="400">
 
 
 ### Online Options
@@ -127,7 +131,7 @@ __Feedback__
 
 Providing students with online alternatives was by far the thing that was commented on most in module evaluations. Here's some of the feedback I received. 
 
-![](Online_feedback.png)
+<img src="Online_feedback.png" width="400" height="400">
 
 ### Some improvements
 
@@ -145,19 +149,22 @@ Providing students with online alternatives was by far the thing that was commen
 
 These improvements are informed by the feedback below. 
 
-![](improvements.png)
+<img src="improvements.png" width="400" height="400">
+
 
 # Pits and Peaks
 
 
 Something I found really hard this semester is that I felt like I was constantly chasing my tail. Developing the slides and code for an advanced module that was brand new, along with tutorial sheets, assignment sheets and exam papers was alot of work. I didn't feel I had much time left to dedicate to anything else during the semester and I don't feel like I had much room to switch off. I was picking up my laptop most nights after I put my son to bed to catch up on things. I had a paper that I really wanted to finish and I just couldn't find a block of time to sit down and work on it. I feel really guilty about this because there's people relying on me to get this paper published but it just required more of me than I was able to give in terms of mental capacity. So this paper is currently in a pit and I did not manage to tick off the to do list below, but hopefully I can turn it into a peak soon.
 
-![](paper_todo.png){width="50%"}
+<img src="paper_todo.png" width="400" height="400">
+
 
 
 The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
 
-![](peak.png)
+<img src="peak.png" width="400" height="400">
+
 
 # The End (of the semester)
 
