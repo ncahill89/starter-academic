@@ -36,14 +36,13 @@ I have a 4 year old son and being without childcare for covid related reasons wa
 
 The narrative was that campus life was going "back to normal". But everything was very far from normal. We all had to be constantly on guard for covid symptoms. Two days before term started I got a PCR test because I had a cold and needed to rule out covid. I was doing antigen tests regularly througout the semester. Masks were mandadated for lectures. Vaccines were not. Students needed online options in case they couldn't attend lectures. Lecturers had to find a way to provide the hybrid. Overall, I think this contributed to baseline anxiety levels being higher than ever among both students and staff.
 
-
-![](normal.jpg){:height="50%" width="50%"}
+<img src="normal.jpg" width="400" height="400">
 
 ### Covid
 
 Masks were mandated just before the semester started and so I was a bit concerned have having to police that (in the end I had nothing to worry about, students were very respectful in lectures about wearing masks which was a huge relief). My worries about getting covid were more related to passing it onto somebody else (my unvaccinated 4yr old son, or my parents) and this worry increased as we went through the semester. Cases were (are) very high and nightclubs etc reopened in the middle of the semester. Towards the end of the semester, while I was genuinely enjoying lecturing F2F and having more meaningful interactions with the students, I was also really starting to feel like I wanted to avoid the University as much as possible. Having the constant covid cloud hang over everything was (is) really exhausting.
 
-<img src="palgue.JPG" width="400" height="400">
+<img src="palgue.jpg" width="400" height="400">
 
 
 # The Teaching
