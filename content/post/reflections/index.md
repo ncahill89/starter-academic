@@ -74,13 +74,6 @@ My structure for Bayesian Data Analysis was similar, but lectures weren't separa
 | Varying Intercepts and Slopes Models | Slides + Code | Slides used to talk through extending regression models and the interpretation of the model output. Code used to show how this works practically.                                     |
 
 
-__Feedback__ 
-
-Here is some feedback I received on the lecture structure. 
-
-<img src="R_feedback.png" width="600" height="300">
-
-
 ### Interactive Quizzes
 
 When I was teaching remotely I started giving the students short quizzes using a website called [mentimeter](https://www.mentimeter.com). I decided to incorporate these into my F2F lectures this semester. 
@@ -101,12 +94,6 @@ For my Bayesian Data Analysis module I used these quizzes at the beginning of th
 
 I think the use of [mentimeter](https://www.mentimeter.com) worked very well in both modules in terms of increasing engagement. Also, the anonymity meant the students would participate without worrying about getting the answer wrong.
 
-__Feedback__
-
-Here is some feedback I received on the use of the menti quizzes. 
-
-<img src="Menti_feedback.png" width="600" height="200">
-
 
 ### Online Options
 
@@ -122,11 +109,7 @@ At the beginning of the semester I made the decision to provide online alternati
 
 5.  Sometimes I would hand write additional calculations during the lectures. For this, I used an app called [replica](https://apps.apple.com/us/app/display-mirror-replica-app/id1468495939) combined with a white board app, both on my ipad. Replica allowed me to replicate my ipad screen on my laptop. I could again share this on a web browser tab, so this was super handy for the lecture recordings. This provided a really good alternative to using the doc-cam or a white board (which would have made it difficult to capture the additional notes in the lecture video).
 
-__Feedback__ 
-
-Providing students with online alternatives was by far the thing that was commented on most in module evaluations. Here's some of the feedback I received. 
-
-<img src="Online_feedback.png" width="500" height="300">
+Providing students with online alternatives was by far the thing that was commented on most in module evaluations. 
 
 ### Some improvements
 
@@ -142,10 +125,6 @@ Providing students with online alternatives was by far the thing that was commen
 
 -   I will try to fold in some examples of where Bayesian Analysis can be used in industry. I don't have a great perspective on this but I did ask stats twitter for some help and ended up with a thread of some nice [examples](https://twitter.com/NCahill_Stat/status/1460896135040667651?s=20).
 
-These improvements are informed by the feedback below. 
-
-<img src="improvements.png" width="600" height="300">
-
 
 # Pits and Peaks
 
@@ -156,9 +135,7 @@ Something I found really hard this semester is that I felt like I was constantly
 
 
 
-The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching had made me feel very detached from that. This message from a student taking my Bayesian module made me so happy.
-
-<img src="peak.png" width="600" height="100">
+The peak of the semester was feeling more connected with the students. I love teaching and engaging with students and I think online teaching had made me feel very detached from that. 
 
 
 # The End (of the semester)
