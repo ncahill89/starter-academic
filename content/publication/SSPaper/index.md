@@ -1,5 +1,5 @@
 ---
-title: "What increase in modern contraceptive use is needed in FP2020 countries to reach 75% demand satisfied by 2030? An assessment using the Accelerated Transition Method and Family Planning Estimation Model"
+title: "Using family planning service statistics to inform model-based estimates of modern contraceptive prevalence"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
