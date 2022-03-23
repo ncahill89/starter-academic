@@ -29,7 +29,7 @@ image:
 links:
 - icon: slides
   name: slides
-  url: https://rpubs.com/ncahill_stat/854261
+  url: https://github.com/ncahill89/starter-academic/blob/master/content/event/statshats/StatsHatsTalk.pdf
 
 - icon: twitter
   icon_pack: fab
