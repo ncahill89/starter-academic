@@ -29,7 +29,7 @@ image:
 links:
 - icon: slides
   name: slides
-  url: https://github.com/ncahill89/starter-academic/blob/master/content/event/statshats/StatsHatsTalk.pdf
+  url: https://maynoothuniversity-my.sharepoint.com/:p:/g/personal/niamh_cahill_mu_ie/EXXUXOD5CrtEqMGw5yK4Od4B9mTDZ9BypAcAQ3Pju9zeuw?e=RP7nmH
 
 - icon: twitter
   icon_pack: fab
