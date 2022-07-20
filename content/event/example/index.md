@@ -1,5 +1,5 @@
 ---
-title: A BAYESIAN STATISTICAL MODEL FOR RECONSTRUCTING AND ANALYSING FORMER SEA LEVELS
+title: A Bayesian Statistical Model for Reconstructing and Analysis Former Sea Levels
 
 event: Meeting of the Irish Mathematical Society
 
