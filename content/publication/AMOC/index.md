@@ -9,7 +9,7 @@ authors:
 - G. D. McCarthy
 - D. J. R. Thornalley
 - N. Cahill
-- S. Rahmstorf 
+- - S. Rahmstorf 
 
 date: "2021-03-07T00:00:00Z"
 doi: ""
@@ -27,11 +27,11 @@ publication_types: ["2"]
 publication: J. Quaternary Sci.
 
 abstract: The Atlantic Meridional Overturning Circulation (AMOC)-one of Earth's major ocean circulation systems-redistributes heat on our planet and has a major impact on climate. Here, we compare a variety of published proxy records to reconstruct the evolution of the AMOC since about AD 400. A fairly consistent picture of the AMOC emerges: after a long and relatively stable period, there was an initial weakening starting in the nineteenth century, followed by a second, more rapid, decline in the mid-twentieth century, leading to the weakest state of the AMOC occurring in recent decades.
+
 tags: []
 
 # Display this page in the Featured widget?
 featured: false
-
 
 url_pdf: 'https://doi.org/10.1038/s41561-021-00699-z'
 url_code: ''
