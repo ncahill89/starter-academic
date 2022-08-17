@@ -27,11 +27,7 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication:  GSA Bulletin
 
-abstract: Stratigraphic, lithologic, foraminiferal, and radiocarbon analyses indicate that at least four abrupt mud-over-peat contacts are recorded across three sites (Jacoby Creek, McDaniel Creek, and Mad River Slough) in northern Humboldt Bay, California, USA. 
-The stratigraphy records subsidence during past megathrust earthquakes at the southern Cascadia subduction zone ~40 km north of the Mendocino Triple Junction. 
-Maximum and minimum radiocarbon ages on plant macrofossils from above and below laterally extensive (>6 km) contacts suggest regional synchroneity of subsidence. 
-The shallowest contact has radiocarbon ages that are consistent with the most recent great earthquake at Cascadia, which occurred at 250 cal yr B.P. (1700 CE). 
-Using Bchron and OxCal software, we model ages for the three older contacts of ca. 875 cal yr B.P., ca. 1120 cal yr B.P., and ca. 1620 cal yr B.P.
+abstract: Stratigraphic, lithologic, foraminiferal, and radiocarbon analyses indicate that at least four abrupt mud-over-peat contacts are recorded across three sites (Jacoby Creek, McDaniel Creek, and Mad River Slough) in northern Humboldt Bay, California, USA. The stratigraphy records subsidence during past megathrust earthquakes at the southern Cascadia subduction zone ~40 km north of the Mendocino Triple Junction. Maximum and minimum radiocarbon ages on plant macrofossils from above and below laterally extensive (>6 km) contacts suggest regional synchroneity of subsidence. The shallowest contact has radiocarbon ages that are consistent with the most recent great earthquake at Cascadia, which occurred at 250 cal yr B.P. (1700 CE). Using Bchron and OxCal software, we model ages for the three older contacts of ca. 875 cal yr B.P., ca. 1120 cal yr B.P., and ca. 1620 cal yr B.P.
 
 tags: []
 
