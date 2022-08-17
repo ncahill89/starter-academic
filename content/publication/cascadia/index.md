@@ -29,6 +29,7 @@ publication:  J. Quaternary Sci.
 abstract: We examine fossil foraminiferal assemblages from 20 sediment cores to assess sudden relative sea-level (RSL) changes across three mud-over-peat contacts at three salt marshes in northern Humboldt Bay, California. 
 We use a validated foraminiferal-based Bayesian transfer function to evaluate the variability of subsidence stratigraphy at a range of 30-6000 m across an estuary. 
 We use the consistency in RSL reconstructions to support estimates of coseismic subsidence from megathrust earthquakes. 
+
 tags: []
 
 # Display this page in the Featured widget?
