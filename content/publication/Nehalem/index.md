@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 
-url_pdf: 'https://reader.elsevier.com/reader/sd/pii/S002532272030181X?token=836136714ABE80816910853A9BD827F545DC181CDB99EC769B3769839027DE68A09028B6591A6C007CA86F22A72C7B3D&originRegion=eu-west-1&originCreation=20220916205749'
+url_pdf: 'https://www.openquaternary.com/articles/10.5334/oq.70/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
