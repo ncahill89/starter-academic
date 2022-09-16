@@ -5,14 +5,14 @@ title: "Incorporating temporal and spatial variability of salt-marsh foraminifer
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Jennifer S.Walkera
-- NiamhCahill
-- Nicole S.Khan
-- Timothy A.Shawd
+- Jennifer S. Walker
+- Niamh Cahill
+- Nicole S. Khan
+- Timothy A. Shaw
 - Don Barber 
-- Kenneth G.Millera
-- Robert E.Kopp
-- Benjamin P.Horton
+- Kenneth G. Miller
+- Robert E. Kopp
+- Benjamin P. Horton
 
 date: "2020-11-07T00:00:00Z"
 doi: ""
