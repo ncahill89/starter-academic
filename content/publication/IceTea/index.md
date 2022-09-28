@@ -5,11 +5,11 @@ title: "iceTEA: Tools for plotting and analysing cosmogenic-nuclide surface-expo
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Jones, R.S.
-- Small, D.
-- Cahill, N.
-- Bentley, M.J.
-- Whitehouse, P.L.
+- R.S. Jones
+- D. Small
+- N Cahill
+- M.J. Bentley
+- P.L. Whitehouse
 
 # Author notes (optional)
 #author_notes:
