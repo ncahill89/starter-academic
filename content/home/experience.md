@@ -22,12 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+  - title: Associate Professor
+    company: Maynooth University
+    company_url: ''
+    location: Maynooth, Ireland
+    date_start: '2023-10-01'
+    date_end: ''
+
   - title: Assistant Professor
     company: Maynooth University
     company_url: ''
     location: Maynooth, Ireland
     date_start: '2018-12-01'
-    date_end: ''
+    date_end: '2023-09-30'
         
   - title: Lecturer
     company: University College Dublin
