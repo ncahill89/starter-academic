@@ -35,7 +35,7 @@ tags: []
 # Display this page in the Featured widget?
 featured: false
 
-url_pdf: 'https://doi.org/10.1038/s41561-021-00699-z'
+url_pdf: 'https://onlinelibrary.wiley.com/doi/full/10.1002/env.2786'
 url_code: ''
 url_dataset: ''
 url_poster: ''
