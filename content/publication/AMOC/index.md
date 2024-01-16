@@ -9,7 +9,7 @@ authors:
 - G. D. McCarthy
 - D. J. R. Thornalley
 - N. Cahill
-- - S. Rahmstorf 
+- S. Rahmstorf 
 
 date: "2021-03-07T00:00:00Z"
 doi: ""
