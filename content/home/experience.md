@@ -23,19 +23,12 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: Professor
-    company: Maynooth University
-    company_url: ''
-    location: Maynooth, Ireland
-    date_start: '2024-07-01'
-    date_end: ''
-
   - title: Associate Professor
     company: Maynooth University
     company_url: ''
     location: Maynooth, Ireland
     date_start: '2023-10-01'
-    date_end: '2024-06-30'
+    date_end: ''
 
   - title: Assistant Professor
     company: Maynooth University
