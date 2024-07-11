@@ -6,7 +6,7 @@ title: Niamh Cahill, PhD
 superuser: true
 
 # Role/position/tagline
-role: Assistant Professor, Statistics
+role: Professor, Statistics
 
 # Organizations/Affiliations to show in About widget
 organizations:
