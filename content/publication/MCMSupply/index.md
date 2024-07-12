@@ -28,7 +28,7 @@ publishDate: "2024-05-27T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Journal of the Royal Statistical Scociety Series A: Statistics in Society
+publication: Journal of the Royal Statistical Society Series A
 
 abstract: Quantifying the public/private-sector supply of contraceptive methods within countries is vital for effective and sustainable family-planning delivery. However, many low- and middle-income countries quantify contraceptive supply using out-of-date Demographic Health Surveys. As an alternative, we propose using a Bayesian, hierarchical, penalized-spline model, with survey input, to produce annual estimates and projections of contraceptive supply-share outcomes. Our approach shares information across countries, accounts for survey observational errors and produces probabilistic projections informed by past changes in supply shares, as well as correlations between supply-share changes across different contraceptive methods. Results may be used to evaluate family-planning program effectiveness and stability.
 
