@@ -22,6 +22,21 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 
+links:
+- icon: 
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/comiskey_hannah
+- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: fas
+  link: https://scholar.google.com/citations?user=J0Dvq2wAAAAJ&hl=en
+- icon: github
+  icon_pack: fab
+  link: https://github.com/hannahcomiskey
+
+
+
 ---
 
-Hannah is a student of the Science Foundation Ireland Centre for Research Training in Foundations of Data Science programme. She has a First Class Honours Bachelor of Science degree in Statistics and Biology, awarded by Maynooth University.  Hannah’s PhD is concentrating on quantifying the uncertainty associated with estimates of modern contraceptive use from service statistics using Bayesian hierarchical modelling techniques. She is working on an R package ‘ss2emu’ that takes service statistics data and creates estimates of modern contraceptive use with uncertainty in a given country. This package will be based on existing and new methodologies. This package incorporated into an R shiny application will provide a valuable tool for the processing of Family Planning Services data into formats that are compatible with The Family Planning Estimation Tool (FPET; www.fpet.track20.org). The goal of this work is to harness the full potential of service statistics and incorporate this into the FPET to better inform estimates of contraceptive prevalence rates.
+Hannah is currently a postdoctoral research fellow as part of the ADAPT SFI Research Centre for AI-Driven Digital Content Technology. There, she is working on the LegacyNet project and the LegumeLegacy Doctoral Network. Hannah completed her PhD with the Science Foundation Ireland Centre for Research Training in Foundations of Data Science programme in Maynooth University. Her PhD concentrated on the development of statistical models to assess the contributions of the public and private sectors to the supply of modern contraceptives in low- and middle-income countries. 
+
