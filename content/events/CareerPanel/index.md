@@ -1,5 +1,5 @@
 ---
-title: Career Panel 
+title: Career Panel, CRT Winter Symposium 2024
 
 event: Winter Symposium 2024
 
