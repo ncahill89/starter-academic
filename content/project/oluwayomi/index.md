@@ -2,8 +2,7 @@
 title: Oluwayomi Akinfenwa
 summary: Data visualisation for Bayesian multilevel models.
 tags:
-- Bayesian Modelling
-- Visualisation
+- current
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

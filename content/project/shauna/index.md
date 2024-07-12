@@ -2,7 +2,7 @@
 title: Shauna Mooney
 summary: Data Model Development for Biased Data
 tags:
-- Family Planning
+- current
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
