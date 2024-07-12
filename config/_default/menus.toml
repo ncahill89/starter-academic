@@ -7,27 +7,33 @@
   name = "Home"
   url = "#about"
   weight = 10
-  
+
 [[main]]
   name = "Research Group"
   url = "#projects"
   weight = 20
-  
+
 [[main]]
   name = "Talks"
   url = "#talks"
   weight = 30
-  
+
+[[main]]
+  name = "News and Events"
+  url = "#events"
+  weight = 30
+
+
 [[main]]
   name = "Blog"
   url = "#post"
   weight = 40
- 
+
 [[main]]
   name = "Publications"
   url = "#publications"
   weight = 50
-  
+
 [[main]]
   name = "Contact"
   url = "#contact"
