@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: News and Events
 
 # View.
 #   1 = List
