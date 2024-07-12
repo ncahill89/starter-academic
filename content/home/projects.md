@@ -27,6 +27,8 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: Graduates
+    tag: 'grads'
   - name: Family Planning
     tag: Family Planning
   - name: Sea Level
