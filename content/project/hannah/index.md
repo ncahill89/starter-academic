@@ -17,16 +17,6 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/comiskey_hannah
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-links:
-- icon: 
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/comiskey_hannah
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=J0Dvq2wAAAAJ&hl=en
