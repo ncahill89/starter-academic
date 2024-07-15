@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/comiskey_hannah
+  url: https://scholar.google.com/citations?hl=en&user=Lv1uFPMAAAAJ
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=J0Dvq2wAAAAJ&hl=en
