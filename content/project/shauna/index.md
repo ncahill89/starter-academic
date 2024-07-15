@@ -19,7 +19,7 @@ links:
   url: https://www.linkedin.com/in/shauna-mooney?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 - icon: github
   icon_pack: fab
-  name: Follow
+  name: 
   url: https://github.com/shaunamooney
 
 ---
