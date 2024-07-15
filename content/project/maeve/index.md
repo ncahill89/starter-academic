@@ -13,14 +13,15 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/upmc_6
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+  url: https://www.linkedin.com/in/uptonmaeve?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+- icon: github
+  icon_pack: fab
+  name: 
+  url: https://github.com/maeveupton
+
 
 ---
 
