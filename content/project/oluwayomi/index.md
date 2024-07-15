@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+- icon: linkedin
+  icon_pack: fab
+  name: Follow
+  url: https://www.linkedin.com/in/oluwayomi-akinfenwa-779782200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 ---
 
