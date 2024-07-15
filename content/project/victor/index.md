@@ -1,8 +1,8 @@
 ---
 title: Victor Nagahama
 summary: Assessing the Computational and Inferential Benefits of Nearest Neighbor Gaussian Processes for Modeling Hydroclimate Indicators 
-tags: current
-- grads
+tags: 
+- current
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
