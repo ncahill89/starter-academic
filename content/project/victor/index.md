@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
   name: Follow
-  url: https://x.com/nagahamavh
+  url: https://www.linkedin.com/in/nagahamavh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 - icon: github
   icon_pack: fab
   link: https://github.com/nagahamaVH
