@@ -1,6 +1,6 @@
 ---
 title: Marina Antoniadou
-summary: THE IMPACTS OF CLIMATE CHANGE ON  HUMAN HEALTH THROUGH ITS EFFECTS ON AIR QUALITY
+summary: The Impacts of Climate Change on Human Health Through its Effects on Air Quality
 
 tags:
 - current
